@@ -19,11 +19,11 @@ import java.io.Serializable;
 
 import org.eclipse.basyx.vab.modelprovider.VABElementProxy;
 
-import de.iip_ecosphere.platform.support.aas.InvocablesCreator;
-import de.iip_ecosphere.platform.support.aas.Invokable;
-import de.iip_ecosphere.platform.support.aas.Invokable.GetterInvokable;
-import de.iip_ecosphere.platform.support.aas.Invokable.OperationInvokable;
-import de.iip_ecosphere.platform.support.aas.Invokable.SetterInvokable;
+import de.iip_ecosphere.platform.support.aas.aas.InvocablesCreator;
+import de.iip_ecosphere.platform.support.aas.aas.Invokable;
+import de.iip_ecosphere.platform.support.aas.aas.Invokable.GetterInvokable;
+import de.iip_ecosphere.platform.support.aas.aas.Invokable.OperationInvokable;
+import de.iip_ecosphere.platform.support.aas.aas.Invokable.SetterInvokable;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

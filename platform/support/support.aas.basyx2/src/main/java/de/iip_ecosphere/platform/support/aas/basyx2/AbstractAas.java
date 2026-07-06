@@ -16,15 +16,15 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import de.iip_ecosphere.platform.support.Builder;
-import de.iip_ecosphere.platform.support.ServerAddress;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.DeferredBuilder;
-import de.iip_ecosphere.platform.support.aas.IdentifierType;
-import de.iip_ecosphere.platform.support.aas.Reference;
-import de.iip_ecosphere.platform.support.aas.Registry;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.DeferredBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.IdentifierType;
+import de.iip_ecosphere.platform.support.aas.aas.Reference;
+import de.iip_ecosphere.platform.support.aas.aas.Registry;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.boot.Builder;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 /**
  * Abstract implementation of the {@link Aas} interface.
@@ -173,7 +173,7 @@ public abstract class AbstractAas<A extends org.eclipse.digitaltwin.aas4j.v3.mod
     }
 
     @Override
-    public de.iip_ecosphere.platform.support.aas.AssetInformation getAsset() {
+    public de.iip_ecosphere.platform.support.aas.aas.AssetInformation getAsset() {
         return asset;
     }
 

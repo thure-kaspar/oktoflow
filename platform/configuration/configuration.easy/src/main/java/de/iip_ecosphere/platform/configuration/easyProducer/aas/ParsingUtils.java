@@ -21,8 +21,8 @@ import java.util.function.Consumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import de.iip_ecosphere.platform.support.aas.IdentifierType;
-import de.iip_ecosphere.platform.support.aas.SemanticIdRecognizer;
+import de.iip_ecosphere.platform.support.aas.aas.IdentifierType;
+import de.iip_ecosphere.platform.support.aas.aas.SemanticIdRecognizer;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 

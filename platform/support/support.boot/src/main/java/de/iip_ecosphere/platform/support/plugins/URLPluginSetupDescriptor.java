@@ -24,8 +24,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import de.iip_ecosphere.platform.support.NetUtils;
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.oktoflow.platform.tools.lib.loader.IndexClassloader;
 import de.oktoflow.platform.tools.lib.loader.LoaderIndex;

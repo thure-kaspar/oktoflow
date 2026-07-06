@@ -13,14 +13,14 @@
 package test.de.iip_ecosphere.platform.support.aas.basyx2;
 
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 /**
  * Tests deployment scenarios.
  * 
  * @author Holger Eichelberger, SSE
  */
-public class BaSyxDeploymentTest extends test.de.iip_ecosphere.platform.support.aas.DeploymentTest {
+public class BaSyxDeploymentTest extends test.de.iip_ecosphere.platform.support.aas.aas.DeploymentTest {
     
     @Override
     protected Endpoint createDependentEndpoint(ServerAddress address, String endpoint) {

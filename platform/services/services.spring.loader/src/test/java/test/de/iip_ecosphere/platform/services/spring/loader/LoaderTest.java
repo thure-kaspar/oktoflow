@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.OsUtils;
-import de.iip_ecosphere.platform.support.ZipUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
+import de.iip_ecosphere.platform.support.boot.ZipUtils;
 import de.iip_ecosphere.platform.support.plugins.StreamGobbler;
 
 import org.junit.Assert;

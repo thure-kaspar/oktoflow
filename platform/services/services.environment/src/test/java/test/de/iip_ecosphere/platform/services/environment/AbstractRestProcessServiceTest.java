@@ -26,9 +26,9 @@ import de.iip_ecosphere.platform.services.environment.AbstractRestProcessService
 import de.iip_ecosphere.platform.services.environment.ServiceKind;
 import de.iip_ecosphere.platform.services.environment.ServiceState;
 import de.iip_ecosphere.platform.services.environment.YamlService;
-import de.iip_ecosphere.platform.support.NetUtils;
-import de.iip_ecosphere.platform.support.TimeUtils;
 import de.iip_ecosphere.platform.support.Version;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.plugins.CurrentClassloaderPluginSetupDescriptor;
 import de.iip_ecosphere.platform.support.plugins.PluginManager;
 import de.iip_ecosphere.platform.support.rest.Rest;

@@ -19,8 +19,8 @@ import java.io.PrintStream;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 
 /**
  * A simple log runnable to log experimental results.

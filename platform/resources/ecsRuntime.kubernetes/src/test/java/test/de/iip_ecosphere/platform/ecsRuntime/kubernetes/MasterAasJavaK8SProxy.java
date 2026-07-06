@@ -6,8 +6,8 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 
 public class MasterAasJavaK8SProxy {
 

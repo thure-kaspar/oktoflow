@@ -18,8 +18,8 @@ import java.io.InputStream;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.FileUtils;
 import de.iip_ecosphere.platform.support.Updater;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.iip_ecosphere.platform.support.resources.ResourceLoader;
 
 /**

@@ -21,8 +21,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import de.iip_ecosphere.platform.support.CollectionUtils;
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 
 /**
  * Specification comparator.

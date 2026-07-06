@@ -23,7 +23,7 @@ import org.junit.Test;
 import de.iip_ecosphere.platform.services.environment.DataMapper;
 import de.iip_ecosphere.platform.services.environment.DataMapper.BaseDataUnitFunctions;
 import de.iip_ecosphere.platform.services.environment.DataMapper.MappingConsumer;
-import de.iip_ecosphere.platform.support.StringUtils;
+import de.iip_ecosphere.platform.support.boot.StringUtils;
 import de.iip_ecosphere.platform.support.json.IOIterator;
 import de.iip_ecosphere.platform.support.json.Json;
 import de.iip_ecosphere.platform.support.json.JsonObject;

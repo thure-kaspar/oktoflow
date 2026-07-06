@@ -13,18 +13,18 @@
 package de.iip_ecosphere.platform.deviceMgt;
 
 import de.iip_ecosphere.platform.deviceMgt.registry.DeviceRegistryFactory;
-import de.iip_ecosphere.platform.support.aas.*;
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.*;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
 import de.iip_ecosphere.platform.support.iip_aas.AasContributor;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
 import de.iip_ecosphere.platform.support.json.Json;
 import de.iip_ecosphere.platform.support.json.JsonResultWrapper;
 
+import static de.iip_ecosphere.platform.support.aas.aas.AasUtils.readString;
+
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;
-
-import static de.iip_ecosphere.platform.support.aas.AasUtils.readString;
 
 /**
  * A Asset Administration Shell for device management functionalities.

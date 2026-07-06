@@ -13,8 +13,8 @@
 package de.iip_ecosphere.platform.monitoring.prometheus;
 
 import de.iip_ecosphere.platform.monitoring.prometheus.PrometheusMonitoringSetup.PrometheusSetup;
-import de.iip_ecosphere.platform.support.LifecycleDescriptor;
-import de.iip_ecosphere.platform.support.LifecycleProfile;
+import de.iip_ecosphere.platform.support.aas.LifecycleDescriptor;
+import de.iip_ecosphere.platform.support.aas.LifecycleProfile;
 
 /**
  * A lifecycle profile to start the full monitoring component standalone.

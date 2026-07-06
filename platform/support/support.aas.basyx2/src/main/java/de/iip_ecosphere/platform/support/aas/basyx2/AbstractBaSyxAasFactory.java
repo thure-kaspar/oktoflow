@@ -20,23 +20,23 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.AasComponent;
 import de.iip_ecosphere.platform.support.FileFormat;
-import de.iip_ecosphere.platform.support.NetUtils;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.DeploymentRecipe;
-import de.iip_ecosphere.platform.support.aas.InvocablesCreator;
-import de.iip_ecosphere.platform.support.aas.OperationsProvider;
-import de.iip_ecosphere.platform.support.aas.PersistenceRecipe;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
-import de.iip_ecosphere.platform.support.aas.Registry;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
-import de.iip_ecosphere.platform.support.aas.SimpleLocalProtocolCreator;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.DeploymentRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.InvocablesCreator;
+import de.iip_ecosphere.platform.support.aas.aas.OperationsProvider;
+import de.iip_ecosphere.platform.support.aas.aas.PersistenceRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Registry;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.SimpleLocalProtocolCreator;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.AasComponent;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
 import de.iip_ecosphere.platform.support.aas.basyx2.common.BaSyxDeploymentRecipe;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
 
 /**
  * AAS factory for BaSyx. Do not rename, this class is referenced in {@code META-INF/services}.

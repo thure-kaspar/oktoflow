@@ -33,8 +33,8 @@ import de.iip_ecosphere.platform.services.environment.services.TransportConverte
 import de.iip_ecosphere.platform.services.environment.services.TransportConverter.Watcher;
 import de.iip_ecosphere.platform.services.environment.services.TransportConverterFactory;
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
 import de.iip_ecosphere.platform.support.iip_aas.IipVersion;

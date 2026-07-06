@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.support.net;
 
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 /**
  * Basic network manager implementation. Default port values are 1024-65535 according to RFC 6056.

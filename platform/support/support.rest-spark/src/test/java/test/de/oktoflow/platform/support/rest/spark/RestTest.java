@@ -5,8 +5,8 @@ import java.io.IOException;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.NetUtils;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.rest.Rest;
 import de.iip_ecosphere.platform.support.rest.Rest.RestServer;
 import de.iip_ecosphere.platform.support.rest.Rest.Route;

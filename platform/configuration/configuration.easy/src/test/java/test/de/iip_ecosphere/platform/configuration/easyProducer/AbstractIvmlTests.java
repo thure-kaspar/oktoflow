@@ -33,14 +33,14 @@ import de.iip_ecosphere.platform.configuration.easyProducer.PlatformInstantiator
 import de.iip_ecosphere.platform.configuration.easyProducer.PlatformInstantiator.InstantiationConfigurer;
 import de.iip_ecosphere.platform.configuration.easyProducer.ivml.IvmlUtils;
 import de.iip_ecosphere.platform.services.environment.YamlArtifact;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.LifecycleDescriptor;
-import de.iip_ecosphere.platform.support.OsUtils;
-import de.iip_ecosphere.platform.support.ZipUtils;
+import de.iip_ecosphere.platform.support.aas.LifecycleDescriptor;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
+import de.iip_ecosphere.platform.support.boot.ZipUtils;
 import de.iip_ecosphere.platform.support.jsl.ServiceLoaderUtils;
 import net.ssehub.easy.reasoning.core.reasoner.ReasoningResult;
 import net.ssehub.easy.varModel.confModel.Configuration;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 import static test.de.iip_ecosphere.platform.services.environment.PythonEnvironmentTest.*;
 

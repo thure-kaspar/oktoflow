@@ -22,7 +22,7 @@ import de.iip_ecosphere.platform.configuration.cfg.ConfigurationChangeType;
 import de.iip_ecosphere.platform.configuration.easyProducer.ivml.IvmlGraphMapper.IvmlGraph;
 import de.iip_ecosphere.platform.configuration.easyProducer.ivml.IvmlGraphMapper.IvmlGraphNode;
 import de.iip_ecosphere.platform.configuration.easyProducer.serviceMesh.ServiceMeshGraphMapper;
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.iip_ecosphere.platform.support.json.Json;
 import de.iip_ecosphere.platform.support.json.JsonArrayBuilder;
 import de.iip_ecosphere.platform.support.json.JsonUtils;

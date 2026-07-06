@@ -25,9 +25,9 @@ import java.util.concurrent.ExecutionException;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
-import de.iip_ecosphere.platform.support.ObjectUtils;
-import de.iip_ecosphere.platform.support.ServerAddress;
 import de.iip_ecosphere.platform.support.Version;
+import de.iip_ecosphere.platform.support.boot.ObjectUtils;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.net.ManagedServerAddress;
 import de.iip_ecosphere.platform.support.net.NetworkManagerFactory;
 import de.iip_ecosphere.platform.support.plugins.Plugin;

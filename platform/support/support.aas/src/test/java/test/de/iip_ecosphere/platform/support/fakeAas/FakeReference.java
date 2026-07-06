@@ -12,7 +12,7 @@
 
 package test.de.iip_ecosphere.platform.support.fakeAas;
 
-import de.iip_ecosphere.platform.support.aas.Reference;
+import de.iip_ecosphere.platform.support.aas.aas.Reference;
 
 /**
  * Implements a fake reference pointing to nothing. Just the reference.

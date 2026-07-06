@@ -15,8 +15,8 @@ package de.iip_ecosphere.platform.services.spring.descriptor;
 import java.util.List;
 
 import de.iip_ecosphere.platform.services.environment.ServiceKind;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
 import de.iip_ecosphere.platform.support.Version;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
 
 /**
  * Information about a single service. {@link #getId()} and {@link #getName()} must be given, both not empty, 

@@ -2,8 +2,8 @@ package de.iip_ecosphere.platform.configuration.easyProducer.ivml;
 
 import de.iip_ecosphere.platform.configuration.cfg.ConfigurationChangeType;
 import de.iip_ecosphere.platform.configuration.easyProducer.ConfigurationManager;
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
 import net.ssehub.easy.varModel.confModel.IDecisionVariable;
 
 /**

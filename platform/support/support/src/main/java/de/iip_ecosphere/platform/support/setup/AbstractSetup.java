@@ -19,7 +19,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.Iterator;
 import java.util.Map;
 
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.iip_ecosphere.platform.support.resources.MultiResourceResolver;
 import de.iip_ecosphere.platform.support.resources.ResourceLoader;

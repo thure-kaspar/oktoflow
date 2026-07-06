@@ -26,7 +26,7 @@ import org.eclipse.digitaltwin.aas4j.v3.model.Environment;
 
 import de.iip_ecosphere.platform.support.ExtensionBasedFileFormat;
 import de.iip_ecosphere.platform.support.FileFormat;
-import de.iip_ecosphere.platform.support.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
 
 /**
  * An XML persistence recipe.

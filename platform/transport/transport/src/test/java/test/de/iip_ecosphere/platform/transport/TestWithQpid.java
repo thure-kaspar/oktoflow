@@ -14,9 +14,9 @@ package test.de.iip_ecosphere.platform.transport;
 
 import org.junit.After;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 /**
  * Adds QPID as plugin into the tests.

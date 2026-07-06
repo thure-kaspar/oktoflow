@@ -12,9 +12,9 @@
 
 package iip.datatypes;
 
-import de.iip_ecosphere.platform.support.ConfiguredName;
-import de.iip_ecosphere.platform.support.Ignore;
-import de.iip_ecosphere.platform.support.StringUtils;
+import de.iip_ecosphere.platform.support.boot.ConfiguredName;
+import de.iip_ecosphere.platform.support.boot.Ignore;
+import de.iip_ecosphere.platform.support.boot.StringUtils;
 
 /**
  * Implements {@link Data}.

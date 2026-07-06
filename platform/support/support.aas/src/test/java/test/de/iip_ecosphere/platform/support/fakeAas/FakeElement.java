@@ -16,8 +16,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import de.iip_ecosphere.platform.support.aas.Element;
-import de.iip_ecosphere.platform.support.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.Element;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
 
 /**
  * Implements a basis fake element.

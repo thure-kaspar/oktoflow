@@ -14,8 +14,8 @@ package de.iip_ecosphere.platform.transport.status;
 
 import java.io.IOException;
 
-import de.iip_ecosphere.platform.support.TaskRegistry;
-import de.iip_ecosphere.platform.support.TaskRegistry.TaskData;
+import de.iip_ecosphere.platform.support.boot.TaskRegistry;
+import de.iip_ecosphere.platform.support.boot.TaskRegistry.TaskData;
 import de.iip_ecosphere.platform.transport.connectors.TransportConnector;
 import de.iip_ecosphere.platform.transport.serialization.SerializerRegistry;
 import de.iip_ecosphere.platform.transport.streams.StreamNames;

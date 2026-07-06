@@ -14,8 +14,8 @@ package de.iip_ecosphere.platform.support.metrics.bitmotec;
 
 import java.io.File;
 
-import de.iip_ecosphere.platform.support.metrics.LinuxSystemMetricsUtils;
-import de.iip_ecosphere.platform.support.metrics.SystemMetrics;
+import de.iip_ecosphere.platform.support.aas.metrics.LinuxSystemMetricsUtils;
+import de.iip_ecosphere.platform.support.aas.metrics.SystemMetrics;
 
 /**
  * System metrics implementation for Bitmotec.

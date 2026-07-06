@@ -16,7 +16,7 @@ import java.io.File;
 
 import org.junit.BeforeClass;
 
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.transport.spring.binder.amqp.AmqpClient;
 import de.iip_ecosphere.platform.transport.spring.binder.amqp.AmqpConfiguration;
 

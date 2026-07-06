@@ -30,28 +30,28 @@ import de.iip_ecosphere.platform.configuration.easyProducer.ConfigurationLifecyc
 import de.iip_ecosphere.platform.configuration.easyProducer.ivml.AasIvmlMapper;
 import de.iip_ecosphere.platform.configuration.easyProducer.ivml.GraphFormat;
 import de.iip_ecosphere.platform.configuration.easyProducer.serviceMesh.ServiceMeshGraphMapper;
-import de.iip_ecosphere.platform.support.CollectionUtils;
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.AasPrintVisitor;
-import de.iip_ecosphere.platform.support.aas.InvocablesCreator;
-import de.iip_ecosphere.platform.support.aas.Operation;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe;
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe.LocalPersistenceType;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe.PersistenceType;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AasPrintVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.InvocablesCreator;
+import de.iip_ecosphere.platform.support.aas.aas.Operation;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe.LocalPersistenceType;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe.PersistenceType;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
+import de.iip_ecosphere.platform.support.boot.Server;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry.AasSetup;
 import de.iip_ecosphere.platform.support.json.JsonResultWrapper.OperationCompletedListener;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import net.ssehub.easy.instantiation.core.model.vilTypes.configuration.Configuration;
 import net.ssehub.easy.reasoning.core.reasoner.ReasoningResult;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 /**
  * Tests an AAS IVML model mapping.

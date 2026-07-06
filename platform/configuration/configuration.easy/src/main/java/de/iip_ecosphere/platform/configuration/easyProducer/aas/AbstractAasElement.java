@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.configuration.easyProducer.aas;
 
-import de.iip_ecosphere.platform.support.aas.IdentifierType;
+import de.iip_ecosphere.platform.support.aas.aas.IdentifierType;
 
 /**
  * Abstract superclass for AAS elements.

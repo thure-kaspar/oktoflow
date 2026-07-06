@@ -19,7 +19,7 @@ import java.util.concurrent.ExecutionException;
 import org.junit.Test;
 
 import de.iip_ecosphere.platform.configuration.easyProducer.PlatformInstantiatorExecutor;
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 
 /**
  * Tests the creation of containers via IVML models.

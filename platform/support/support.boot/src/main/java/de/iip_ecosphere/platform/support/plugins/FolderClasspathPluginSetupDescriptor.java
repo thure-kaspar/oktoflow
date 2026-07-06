@@ -26,9 +26,9 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
-import de.iip_ecosphere.platform.support.IOUtils;
-import de.iip_ecosphere.platform.support.OsUtils;
-import de.iip_ecosphere.platform.support.ZipUtils;
+import de.iip_ecosphere.platform.support.boot.IOUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
+import de.iip_ecosphere.platform.support.boot.ZipUtils;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.oktoflow.platform.tools.lib.loader.Constants;

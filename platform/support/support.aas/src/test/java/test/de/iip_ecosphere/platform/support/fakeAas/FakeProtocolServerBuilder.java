@@ -4,10 +4,10 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import de.iip_ecosphere.platform.support.NoOpServer;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.aas.OperationsProvider.Interceptor;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.OperationsProvider.Interceptor;
+import de.iip_ecosphere.platform.support.boot.NoOpServer;
+import de.iip_ecosphere.platform.support.boot.Server;
 
 /**
  * A fake protocol server builder that does nothing (in case that the fake AAS is active in basic component tests).

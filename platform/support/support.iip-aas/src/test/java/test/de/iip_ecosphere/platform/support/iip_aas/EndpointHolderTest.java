@@ -17,13 +17,13 @@ import java.io.File;
 import org.junit.Test;
 
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.Schema;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
 import de.iip_ecosphere.platform.support.iip_aas.config.BasicEndpointValidator;
 import de.iip_ecosphere.platform.support.iip_aas.config.EndpointHolder;
 import de.iip_ecosphere.platform.support.iip_aas.config.RuntimeSetup;
 import de.iip_ecosphere.platform.support.iip_aas.config.RuntimeSetupEndpointValidator;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 import org.junit.Assert;
 

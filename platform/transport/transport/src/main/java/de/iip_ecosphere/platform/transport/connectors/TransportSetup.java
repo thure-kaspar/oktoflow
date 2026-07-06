@@ -15,7 +15,7 @@ package de.iip_ecosphere.platform.transport.connectors;
 import java.io.Serializable;
 
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.Schema;
+import de.iip_ecosphere.platform.support.boot.Schema;
 import de.iip_ecosphere.platform.support.identities.IdentityStore;
 import de.iip_ecosphere.platform.transport.connectors.TransportParameter.TransportParameterBuilder;
 

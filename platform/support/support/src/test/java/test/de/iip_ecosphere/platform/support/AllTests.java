@@ -13,6 +13,15 @@ package test.de.iip_ecosphere.platform.support;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
+import test.de.iip_ecosphere.platform.support.CollectionUtilsTest;
+import test.de.iip_ecosphere.platform.support.FileUtilsTest;
+import test.de.iip_ecosphere.platform.support.IOUtilsTest;
+import test.de.iip_ecosphere.platform.support.NetUtilsTest;
+import test.de.iip_ecosphere.platform.support.ResourceLoaderTest;
+import test.de.iip_ecosphere.platform.support.StringUtilsTest;
+import test.de.iip_ecosphere.platform.support.TaskRegistryTests;
+import test.de.iip_ecosphere.platform.support.TimeUtilsTest;
+import test.de.iip_ecosphere.platform.support.ZipUtilsTest;
 import test.de.iip_ecosphere.platform.support.logging.FallbackLoggerTest;
 import test.de.iip_ecosphere.platform.support.logging.LoggerFactoryTest;
 

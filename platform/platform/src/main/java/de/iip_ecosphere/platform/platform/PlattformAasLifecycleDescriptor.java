@@ -23,7 +23,7 @@ import de.iip_ecosphere.platform.services.ServicesAas;
 import de.iip_ecosphere.platform.services.environment.metricsProvider.metricsAas.HeartbeatWatcher;
 import de.iip_ecosphere.platform.services.environment.services.TransportConverter;
 import de.iip_ecosphere.platform.services.environment.services.TransportConverterFactory;
-import de.iip_ecosphere.platform.support.LifecycleExclude;
+import de.iip_ecosphere.platform.support.aas.LifecycleExclude;
 import de.iip_ecosphere.platform.support.iip_aas.AbstractAasLifecycleDescriptor;
 import de.iip_ecosphere.platform.transport.Transport;
 import de.iip_ecosphere.platform.transport.status.StatusMessage;

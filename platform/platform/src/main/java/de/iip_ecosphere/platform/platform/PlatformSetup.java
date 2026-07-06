@@ -18,7 +18,7 @@ import java.io.IOException;
 import de.iip_ecosphere.platform.support.setup.AbstractSetup;
 import de.iip_ecosphere.platform.support.setup.EnableSetupMerge;
 import de.iip_ecosphere.platform.transport.connectors.TransportSetup;
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

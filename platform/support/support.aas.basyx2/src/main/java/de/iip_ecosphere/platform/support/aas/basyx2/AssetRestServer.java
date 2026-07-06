@@ -29,11 +29,11 @@ import org.eclipse.digitaltwin.basyx.http.BaSyxHTTPConfiguration;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.IdentityTokenWithRole;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.ComponentSetup;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.State;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.IdentityTokenWithRole;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.ComponentSetup;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.State;
+import de.iip_ecosphere.platform.support.boot.Server;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.iip_ecosphere.platform.support.net.KeyStoreDescriptor;
 import de.iip_ecosphere.platform.support.rest.Rest;

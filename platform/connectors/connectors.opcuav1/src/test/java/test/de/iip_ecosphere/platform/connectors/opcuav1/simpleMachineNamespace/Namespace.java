@@ -48,7 +48,7 @@ import org.eclipse.milo.opcua.stack.core.types.structured.Argument;
 import com.google.common.collect.ImmutableSet;
 
 import de.iip_ecosphere.platform.connectors.opcuav1.OpcUaConnector;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import test.de.iip_ecosphere.platform.connectors.opcuav1.DataTypeDictionaryManager;

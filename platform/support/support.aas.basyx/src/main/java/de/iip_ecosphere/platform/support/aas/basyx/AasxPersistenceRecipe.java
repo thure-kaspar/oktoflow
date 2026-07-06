@@ -40,9 +40,9 @@ import org.xml.sax.SAXException;
 
 import de.iip_ecosphere.platform.support.ExtensionBasedFileFormat;
 import de.iip_ecosphere.platform.support.FileFormat;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 

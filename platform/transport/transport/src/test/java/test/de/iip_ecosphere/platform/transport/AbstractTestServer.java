@@ -16,8 +16,8 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ZipUtils;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ZipUtils;
 
 /**
  * A basic abstract server for testing/experiments.

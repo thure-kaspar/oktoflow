@@ -12,7 +12,7 @@
 
 package test.de.iip_ecosphere.platform.support.aas.basyx2;
 
-import test.de.iip_ecosphere.platform.support.aas.SoftwareNameplateTest;
+import test.de.iip_ecosphere.platform.support.aas.aas.SoftwareNameplateTest;
 
 /**
  * Sets up the {@link SoftwareNameplateTest} for BaSyx. You will find the persisted AAS in the {@code output} folder.

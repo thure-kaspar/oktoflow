@@ -16,8 +16,8 @@ import java.util.Optional;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.JavaBinaryPathDescriptor;
-import de.iip_ecosphere.platform.support.JavaUtils;
+import de.iip_ecosphere.platform.support.boot.JavaBinaryPathDescriptor;
+import de.iip_ecosphere.platform.support.boot.JavaUtils;
 import de.iip_ecosphere.platform.support.jsl.ServiceLoaderUtils;
 import org.junit.Assert;
 

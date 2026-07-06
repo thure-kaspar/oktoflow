@@ -18,14 +18,14 @@ import java.util.concurrent.ExecutionException;
 
 import org.eclipse.digitaltwin.aas4j.v3.model.DataTypeDefXsd;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.Invokable;
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.Property;
-import de.iip_ecosphere.platform.support.aas.Type;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.RbacAction;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.Role;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.Invokable;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.RbacAction;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.Role;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 

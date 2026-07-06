@@ -22,7 +22,7 @@ import java.util.Set;
 import java.util.stream.Stream;
 
 import de.iip_ecosphere.platform.support.Version;
-import de.iip_ecosphere.platform.support.aas.IdentifierType;
+import de.iip_ecosphere.platform.support.aas.aas.IdentifierType;
 
 /**
  * Defines known types to be considered as imports.

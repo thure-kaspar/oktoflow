@@ -12,8 +12,8 @@
 
 package test.de.iip_ecosphere.platform.services.spring;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 
 /**
  * A simple server for testing.

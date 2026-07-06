@@ -12,11 +12,11 @@
 
 package test.de.iip_ecosphere.platform.support.fakeAas;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.aas.AasServer;
-import de.iip_ecosphere.platform.support.aas.CorsEnabledRecipe;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.AasServer;
+import de.iip_ecosphere.platform.support.aas.aas.CorsEnabledRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.boot.Server;
 
 /**
  * Implements a fake server recipe.

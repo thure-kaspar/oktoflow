@@ -16,7 +16,7 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 import de.iip_ecosphere.platform.support.setup.AbstractSetup;
 
 import org.junit.Assert;

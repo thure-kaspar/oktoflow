@@ -12,9 +12,9 @@
 
 package test.de.iip_ecosphere.platform.support.fakeAas;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.Range;
-import de.iip_ecosphere.platform.support.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.Range;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
 
 /**
  * Fake implementation of {@link Range}.

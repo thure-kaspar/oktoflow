@@ -19,7 +19,7 @@ import java.net.URI;
 import java.util.concurrent.ExecutionException;
 
 import de.iip_ecosphere.platform.deviceMgt.Credentials;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.SubmodelElementsCollectionClient;
 import de.iip_ecosphere.platform.support.json.Json;

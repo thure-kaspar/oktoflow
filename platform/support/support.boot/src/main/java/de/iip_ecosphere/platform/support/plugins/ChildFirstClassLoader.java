@@ -17,7 +17,7 @@ import java.net.URL;
 import java.util.Enumeration;
 import java.util.function.Function;
 
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 
 /**
  * A delegating child-first classloader.

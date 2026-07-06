@@ -31,11 +31,11 @@ import de.iip_ecosphere.platform.monitoring.prometheus.ConfigModifier.ScrapeEndp
 import de.iip_ecosphere.platform.monitoring.prometheus.PrometheusMonitoringSetup.PrometheusSetup;
 import de.iip_ecosphere.platform.services.environment.AbstractProcessService;
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.LifecycleDescriptor;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.TimeUtils;
-import de.iip_ecosphere.platform.support.ZipUtils;
+import de.iip_ecosphere.platform.support.aas.LifecycleDescriptor;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.ZipUtils;
 import de.iip_ecosphere.platform.support.http.Http;
 import de.iip_ecosphere.platform.support.http.HttpClient;
 import de.iip_ecosphere.platform.support.http.HttpPost;

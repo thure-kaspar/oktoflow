@@ -16,16 +16,16 @@ import java.util.function.Supplier;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.AasServer;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AasServer;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe;
+import de.iip_ecosphere.platform.support.boot.Server;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry.AasSetup;
 import de.iip_ecosphere.platform.support.iip_aas.AbstractAasLifecycleDescriptor;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase.NotificationMode;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 /**
  * Tests {@link AbstractAasLifecycleDescriptor}.

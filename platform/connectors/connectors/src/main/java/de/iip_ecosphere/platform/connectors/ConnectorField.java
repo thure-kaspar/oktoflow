@@ -16,7 +16,7 @@ import java.io.PrintStream;
 import java.util.List;
 import java.util.function.Function;
 
-import de.iip_ecosphere.platform.support.Builder;
+import de.iip_ecosphere.platform.support.boot.Builder;
 
 /**
  * Descriptive information about a connector field.

@@ -12,8 +12,8 @@
 
 package de.iip_ecosphere.platform.deviceMgt.registry;
 
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
 import de.iip_ecosphere.platform.support.iip_aas.SubmodelElementsCollectionClient;
 import de.iip_ecosphere.platform.support.json.Json;
 

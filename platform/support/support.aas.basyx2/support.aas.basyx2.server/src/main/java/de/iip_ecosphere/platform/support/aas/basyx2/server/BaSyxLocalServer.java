@@ -12,15 +12,14 @@
 
 package de.iip_ecosphere.platform.support.aas.basyx2.server;
 
-import de.iip_ecosphere.platform.support.aas.ServerRecipe.PersistenceType;
-
 import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
 import de.iip_ecosphere.platform.support.aas.basyx2.server.apps.submodelRegistry.SubmodelRegistrySpringApp;
 import de.iip_ecosphere.platform.support.aas.basyx2.server.apps.submodelRegistry.SubmodelRegistrySpringAppInitializer;
 import de.iip_ecosphere.platform.support.aas.basyx2.server.apps.submodelRepository.SubmodelRepositorySpringApp;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe.PersistenceType;
 import de.iip_ecosphere.platform.support.aas.basyx2.server.apps.aasRegistry.AasRegistrySpringApp;
 import de.iip_ecosphere.platform.support.aas.basyx2.server.apps.aasRegistry.AasRegistrySpringAppInitializer;
 import de.iip_ecosphere.platform.support.aas.basyx2.server.apps.aasRepository.AasRepositorySpringApp;

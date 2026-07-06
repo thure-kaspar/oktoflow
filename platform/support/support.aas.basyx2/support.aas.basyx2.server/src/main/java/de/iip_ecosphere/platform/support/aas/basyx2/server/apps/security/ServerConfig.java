@@ -35,8 +35,8 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.IdentityTokenWithRole;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.IdentityTokenWithRole;
 import de.iip_ecosphere.platform.support.identities.IdentityToken;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import jakarta.servlet.http.HttpServletRequest;

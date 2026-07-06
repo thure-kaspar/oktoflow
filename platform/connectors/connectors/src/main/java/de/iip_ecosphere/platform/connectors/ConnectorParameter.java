@@ -20,10 +20,10 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.Consumer;
 
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.IOUtils;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.IOUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.identities.IdentityStore;
 import de.iip_ecosphere.platform.support.identities.IdentityToken;
 import de.iip_ecosphere.platform.support.iip_aas.NameplateSetup;

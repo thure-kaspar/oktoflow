@@ -12,8 +12,8 @@
 
 package de.iip_ecosphere.platform.services;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 
 /**
  * Wraps a {@link Server} into a thread if considered necessary. A wrapped threaded server may fail more easily than

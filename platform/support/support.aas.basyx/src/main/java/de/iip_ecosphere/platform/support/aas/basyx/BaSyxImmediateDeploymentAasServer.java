@@ -1,9 +1,9 @@
 package de.iip_ecosphere.platform.support.aas.basyx;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.aas.AasServer;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.AasComponent;
+import de.iip_ecosphere.platform.support.aas.aas.AasServer;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.AasComponent;
+import de.iip_ecosphere.platform.support.boot.Server;
 
 /**
  * A simple, immediate AAS server implementation.

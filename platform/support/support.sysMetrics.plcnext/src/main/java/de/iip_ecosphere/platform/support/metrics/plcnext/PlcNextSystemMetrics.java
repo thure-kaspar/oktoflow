@@ -18,12 +18,12 @@ import java.util.concurrent.ExecutionException;
 import Arp.Device.Interface.Services.Grpc.IDeviceStatusServiceGrpc;
 import Arp.Device.Interface.Services.Grpc.IDeviceStatusServiceOuterClass.IDeviceStatusServiceGetItemRequest;
 import Arp.Device.Interface.Services.Grpc.IDeviceStatusServiceGrpc.IDeviceStatusServiceBlockingStub;
-import de.iip_ecosphere.platform.support.metrics.SystemMetrics;
 import io.grpc.ManagedChannel;
 import io.grpc.netty.NettyChannelBuilder;
 import io.netty.channel.epoll.EpollDomainSocketChannel;
 import io.netty.channel.epoll.EpollEventLoopGroup;
 import io.netty.channel.unix.DomainSocketAddress;
+import de.iip_ecosphere.platform.support.aas.metrics.SystemMetrics;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

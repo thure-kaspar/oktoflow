@@ -17,15 +17,15 @@ import java.util.concurrent.ExecutionException;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasPrintVisitor;
-import de.iip_ecosphere.platform.support.aas.Property;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasPrintVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.transport.TransportAas;
 import de.iip_ecosphere.platform.transport.TransportFactory;
 import de.iip_ecosphere.platform.transport.serialization.SerializerRegistry;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 /**
  * Tests the transport AAS.

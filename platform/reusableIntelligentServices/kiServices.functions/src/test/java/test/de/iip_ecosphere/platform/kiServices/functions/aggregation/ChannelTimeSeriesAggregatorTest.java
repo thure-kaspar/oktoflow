@@ -27,7 +27,7 @@ import org.junit.Test;
 import de.iip_ecosphere.platform.kiServices.functions.aggregation.ChannelTimeSeriesAggregator;
 import de.iip_ecosphere.platform.kiServices.functions.aggregation.MultiChannelTimeSeriesAggregator;
 import de.iip_ecosphere.platform.kiServices.functions.aggregation.MultiChannelTimeSeriesAggregator.*;
-import de.iip_ecosphere.platform.support.StringUtils;
+import de.iip_ecosphere.platform.support.boot.StringUtils;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

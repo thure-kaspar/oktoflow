@@ -16,10 +16,10 @@ import java.util.Properties;
 
 import org.apache.log4j.BasicConfigurator;
 
-import de.iip_ecosphere.platform.support.NetUtils;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import io.moquette.broker.config.IConfig;
 import test.de.iip_ecosphere.platform.transport.AbstractTestServer;

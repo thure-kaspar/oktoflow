@@ -32,10 +32,10 @@ import java.util.stream.Collectors;
 
 import de.iip_ecosphere.platform.services.environment.GenericMultiTypeServiceImpl.InTypeInfo;
 import de.iip_ecosphere.platform.services.environment.GenericMultiTypeServiceImpl.OutTypeInfo;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.ServerAddress;
-import de.iip_ecosphere.platform.support.StringUtils;
-import de.iip_ecosphere.platform.support.ZipUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.StringUtils;
+import de.iip_ecosphere.platform.support.boot.ZipUtils;
 import de.iip_ecosphere.platform.support.function.ExecutionConsumer;
 import de.iip_ecosphere.platform.support.json.Json;
 import de.iip_ecosphere.platform.support.setup.InstalledDependenciesSetup;

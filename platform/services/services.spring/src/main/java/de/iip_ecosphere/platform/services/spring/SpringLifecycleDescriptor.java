@@ -26,7 +26,7 @@ import java.util.Arrays;
 import org.springframework.boot.Banner;
 
 import de.iip_ecosphere.platform.services.ServicesAas;
-import de.iip_ecosphere.platform.support.LifecycleDescriptor;
+import de.iip_ecosphere.platform.support.aas.LifecycleDescriptor;
 import de.iip_ecosphere.platform.support.iip_aas.IipVersion;
 import de.iip_ecosphere.platform.support.setup.AbstractSetup;
 import de.iip_ecosphere.platform.support.setup.CmdLine;

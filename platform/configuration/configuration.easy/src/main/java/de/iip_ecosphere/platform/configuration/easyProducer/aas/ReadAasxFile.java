@@ -41,8 +41,8 @@ import static de.iip_ecosphere.platform.configuration.easyProducer.aas.ParsingUt
 
 import de.iip_ecosphere.platform.configuration.easyProducer.aas.AasType.EntityType;
 import de.iip_ecosphere.platform.support.Version;
-import de.iip_ecosphere.platform.support.aas.IdentifierType;
-import de.iip_ecosphere.platform.support.aas.SemanticIdRecognizer;
+import de.iip_ecosphere.platform.support.aas.aas.IdentifierType;
+import de.iip_ecosphere.platform.support.aas.aas.SemanticIdRecognizer;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 

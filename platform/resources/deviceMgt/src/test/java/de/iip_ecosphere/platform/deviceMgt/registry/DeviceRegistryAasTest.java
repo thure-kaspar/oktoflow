@@ -13,12 +13,12 @@
 package de.iip_ecosphere.platform.deviceMgt.registry;
 
 import de.iip_ecosphere.platform.deviceMgt.MockInterceptor;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.aas.*;
+import de.iip_ecosphere.platform.support.aas.aas.*;
+import de.iip_ecosphere.platform.support.boot.Server;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry.AasSetup;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
 
 import org.junit.*;
 import org.mockito.Mockito;

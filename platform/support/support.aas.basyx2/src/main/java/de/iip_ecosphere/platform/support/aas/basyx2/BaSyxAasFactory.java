@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.support.aas.basyx2;
 
-import de.iip_ecosphere.platform.support.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
 import de.iip_ecosphere.platform.support.aas.basyx2.common.PluginId;
 
 /**

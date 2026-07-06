@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 
 /**
  * Tests {@link FileUtils}.

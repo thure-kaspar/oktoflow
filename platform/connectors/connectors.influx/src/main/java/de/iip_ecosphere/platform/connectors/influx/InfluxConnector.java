@@ -46,7 +46,7 @@ import de.iip_ecosphere.platform.connectors.events.StringTriggerQuery;
 import de.iip_ecosphere.platform.connectors.events.SimpleTimeseriesQuery.TimeKind;
 import de.iip_ecosphere.platform.connectors.types.ProtocolAdapter;
 import de.iip_ecosphere.platform.connectors.types.RecordCompletePredicate;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.identities.IdentityToken;
 import de.iip_ecosphere.platform.support.identities.IdentityToken.TokenType;
 import de.iip_ecosphere.platform.support.logging.Logger;

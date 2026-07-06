@@ -12,7 +12,7 @@
 
 package de.oktoflow.platform.support.rest.spark;
 
-import de.iip_ecosphere.platform.support.Server;
+import de.iip_ecosphere.platform.support.boot.Server;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.iip_ecosphere.platform.support.rest.RestTarget;
 import spark.Service;

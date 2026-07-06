@@ -14,8 +14,8 @@ package de.iip_ecosphere.platform.transport.status;
 
 import java.io.IOException;
 
-import de.iip_ecosphere.platform.support.TaskRegistry;
-import de.iip_ecosphere.platform.support.TaskRegistry.TaskData;
+import de.iip_ecosphere.platform.support.boot.TaskRegistry;
+import de.iip_ecosphere.platform.support.boot.TaskRegistry.TaskData;
 import de.iip_ecosphere.platform.support.iip_aas.Id;
 import de.iip_ecosphere.platform.support.json.JsonResultWrapper.ExceptionFunction;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;

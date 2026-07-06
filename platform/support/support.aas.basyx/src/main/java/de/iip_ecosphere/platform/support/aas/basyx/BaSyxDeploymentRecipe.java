@@ -28,15 +28,15 @@ import org.eclipse.basyx.vab.modelprovider.api.IModelProvider;
 import org.eclipse.basyx.vab.protocol.http.server.VABHTTPInterface;
 
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.AasServer;
-import de.iip_ecosphere.platform.support.aas.BasicSetupSpec;
-import de.iip_ecosphere.platform.support.aas.DeploymentRecipe;
-import de.iip_ecosphere.platform.support.aas.Registry;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.AasComponent;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AasServer;
+import de.iip_ecosphere.platform.support.aas.aas.BasicSetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.DeploymentRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.Registry;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.AasComponent;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

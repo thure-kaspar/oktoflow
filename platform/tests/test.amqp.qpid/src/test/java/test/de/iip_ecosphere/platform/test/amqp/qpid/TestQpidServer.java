@@ -19,10 +19,10 @@ import org.apache.qpid.server.SystemLauncher;
 import org.apache.qpid.server.model.Broker;
 import org.slf4j.LoggerFactory;
 
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import test.de.iip_ecosphere.platform.transport.AbstractTestServer;
 
 /**

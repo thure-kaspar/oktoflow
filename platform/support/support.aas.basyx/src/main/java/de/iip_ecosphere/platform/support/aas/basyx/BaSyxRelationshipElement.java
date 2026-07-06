@@ -18,10 +18,10 @@ import org.eclipse.basyx.submodel.metamodel.api.reference.IReference;
 import org.eclipse.basyx.submodel.metamodel.api.submodelelement.ISubmodelElement;
 import org.eclipse.basyx.vab.exception.provider.ResourceNotFoundException;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.Reference;
-import de.iip_ecosphere.platform.support.aas.RelationshipElement;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.Reference;
+import de.iip_ecosphere.platform.support.aas.aas.RelationshipElement;
 
 /**
  * Multi-Language property representation for BaSyx.

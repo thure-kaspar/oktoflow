@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.List;
 
-import de.iip_ecosphere.platform.support.IOUtils;
+import de.iip_ecosphere.platform.support.boot.IOUtils;
 import de.iip_ecosphere.platform.support.resources.ResourceLoader;
 import org.junit.Assert;
 import org.junit.Test;

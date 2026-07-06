@@ -12,7 +12,7 @@
 
 package test.de.iip_ecosphere.platform.support.aas.basyx;
 
-import test.de.iip_ecosphere.platform.support.aas.PCF;
+import test.de.iip_ecosphere.platform.support.aas.aas.PCF;
 
 /**
  * Sets up the {@link PCF} for BaSyx. You will find the persisted AAS in the {@code output} folder.

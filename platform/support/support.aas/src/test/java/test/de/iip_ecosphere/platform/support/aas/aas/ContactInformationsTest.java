@@ -1,0 +1,131 @@
+/**
+ * ******************************************************************************
+ * Copyright (c) {2024} The original author or authors
+ *
+ * All rights reserved. This program and the accompanying materials are made 
+ * available under the terms of the Eclipse Public License 2.0 which is available 
+ * at http://www.eclipse.org/legal/epl-2.0, or the Apache License, Version 2.0
+ * which is available at https://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * SPDX-License-Identifier: Apache-2.0 OR EPL-2.0
+ ********************************************************************************/
+
+package test.de.iip_ecosphere.platform.support.aas.aas;
+
+import java.io.File;
+
+import org.junit.Test;
+
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AssetKind;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.types.contactInformations.ContactInformationsBuilder;
+import de.iip_ecosphere.platform.support.aas.types.contactInformations.ContactInformationsBuilder
+    .ContactInformationBuilder;
+import de.iip_ecosphere.platform.support.aas.types.contactInformations.ContactInformationsBuilder.RoleOfContactPerson;
+import de.iip_ecosphere.platform.support.aas.types.contactInformations.ContactInformationsBuilder.TypeOfEmailAddress;
+import de.iip_ecosphere.platform.support.aas.types.contactInformations.ContactInformationsBuilder.TypeOfFaxNumber;
+import de.iip_ecosphere.platform.support.aas.types.contactInformations.ContactInformationsBuilder.TypeOfTelephone;
+
+/**
+ * Example for contact informations.
+ * 
+ * @author Holger Eichelberger, SSE
+ */
+public class ContactInformationsTest extends AbstractAasExample {
+
+    @Override
+    protected String getFolderName() {
+        return "contactInformations";
+    }
+    
+    @Override
+    public File[] getTargetFiles() {
+        return new File[] {new File("./output/contactInformations.aasx")};
+    }
+
+    @Override
+    protected void createAas() {
+        AasBuilder aasBuilder = AasFactory.getInstance().createAasBuilder("ContactInformationsExample", 
+            "urn:::AAS:::ContactInformationsExample#");
+        aasBuilder.createAssetInformationBuilder("ci", "urn:::Asset:::ci#", AssetKind.INSTANCE).build();
+        ContactInformationsBuilder cis = new ContactInformationsBuilder(aasBuilder, "urn:::SM:::ContactInformations#");
+        cis.setCreateMultiLanguageProperties(isCreateMultiLanguageProperties());
+        populate(cis.createContactInformationBuilder()).build();
+        cis.build();
+        
+        registerAas(aasBuilder);
+    }
+
+    /**
+     * Populates an example contact information builder.
+     * 
+     * @param ci the builder
+     * @return {@code ci}
+     */
+    public static ContactInformationBuilder populate(ContactInformationBuilder ci) {
+        ci.setNameOfContact(new LangString("en", "Doe"));
+        ci.setFirstName(new LangString("en", "John"));
+        ci.setMiddleNames(new LangString("en", "M."));
+        ci.setAcademicTitle(new LangString("de", "Dr."));
+        ci.setTitle(new LangString("en", "Rev."));
+        ci.setCityTown(new LangString("en", "Doecit"));
+        ci.setNationalCode(new LangString("en", "US"));
+        ci.setStreet(new LangString("en", "John Avenue"));
+        ci.setPOBox(new LangString("en", "PO 12345"));
+        ci.setFurtherDetailsOfContact(new LangString("en", "unknown"));
+        ci.setAddressOfAdditionalLink("http://me.here.de");
+        ci.setCompany(new LangString("en", "Doe Ltd."));
+        ci.setDepartment(new LangString("en", "top management"));
+        ci.setRoleOfContactPerson(RoleOfContactPerson.ADMINISTRATIV_CONTACT);
+        ci.setTimeZone("-6:00");
+        ci.createEmailBuilder()
+            .setEmailAddress("john@doe.com")
+            .setPublicKey(new LangString("en", "???"))
+            .setTypeOfEmailAddress(TypeOfEmailAddress.OFFICE)
+            .setTypeOfPublicKey(new LangString("en", "N/A"))
+            .build();
+        ci.createFaxBuilder()
+            .setFaxNumber(new LangString("en", "000-000-0003"))
+            .setTypeOfFaxNumber(TypeOfFaxNumber.SECRETARY)
+            .build();
+        ci.createPhoneBuilder()
+            .setTelephoneNumber(new LangString("en", "000-000-0002"))
+            .setTypeOfTelephone(TypeOfTelephone.SECRETARY)
+            .setAvailableTime(new LangString("en", "0-24"))
+            .build();
+        ci.createIPCommunicationBuilder()
+            .setAddressOfAdditionalLink("http://comm.doe.com")
+            .setAvailableTime(new LangString("en", "24/7"))
+            .setTypeOfCommunication("Skype4business")
+            .build();
+        ci.createIPCommunicationBuilder()
+            .setAddressOfAdditionalLink("sip://comm.doe.com")
+            .setAvailableTime(new LangString("en", "8-17"))
+            .setTypeOfCommunication("SIP phone")
+            .build();
+        return ci;
+    }
+
+    @Override
+    protected File getThumbnail() {
+        return null;
+    }
+    
+    /**
+     * Tests defined enumerations.
+     */
+    @Test
+    public void testEnums() {
+        assertEnum(ContactInformationsBuilder.RoleOfContactPerson.values(), 
+            v -> v.getValue() != null && v.getValueId() >= 0);
+        assertEnum(ContactInformationsBuilder.TypeOfTelephone.values(), 
+            v -> v.getValue() != null && v.getValueId() >= 0);
+        assertEnum(ContactInformationsBuilder.TypeOfEmailAddress.values(), 
+            v -> v.getValue() != null && v.getValueId() >= 0);
+        assertEnum(ContactInformationsBuilder.TypeOfFaxNumber.values(), 
+            v -> v.getValue() != null && v.getValueId() >= 0);
+    }
+    
+}

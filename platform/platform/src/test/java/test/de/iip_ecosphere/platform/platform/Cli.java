@@ -13,7 +13,7 @@
 package test.de.iip_ecosphere.platform.platform;
 
 import de.iip_ecosphere.platform.platform.PlatformSetup;
-import de.iip_ecosphere.platform.support.Schema;
+import de.iip_ecosphere.platform.support.boot.Schema;
 import de.iip_ecosphere.platform.support.iip_aas.config.EndpointHolder;
 
 /**

@@ -16,9 +16,9 @@ import java.io.File;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.iip_ecosphere.platform.support.iip_aas.config.RuntimeSetup;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 import org.junit.Assert;
 

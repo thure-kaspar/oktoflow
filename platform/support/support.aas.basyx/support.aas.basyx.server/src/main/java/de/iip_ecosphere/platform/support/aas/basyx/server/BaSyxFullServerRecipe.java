@@ -17,8 +17,8 @@ import java.util.List;
 import org.eclipse.basyx.components.aas.configuration.AASServerBackend;
 import org.eclipse.basyx.components.registry.configuration.RegistryBackend;
 
-import de.iip_ecosphere.platform.support.aas.AasServerRecipeDescriptor;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.AasServerRecipeDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe;
 import de.iip_ecosphere.platform.support.aas.basyx.BaSyxServerRecipe;
 import de.iip_ecosphere.platform.support.plugins.SingletonPluginDescriptor;
 

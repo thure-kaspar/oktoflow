@@ -18,7 +18,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import de.iip_ecosphere.platform.services.environment.metricsProvider.metricsAas.HeartbeatWatcher;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.transport.TransportFactory;
 import de.iip_ecosphere.platform.transport.connectors.TransportConnector;
 

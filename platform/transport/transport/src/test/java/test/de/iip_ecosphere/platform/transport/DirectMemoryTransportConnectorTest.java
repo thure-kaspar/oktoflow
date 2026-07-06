@@ -21,9 +21,9 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.jsl.ExcludeFirst;
 import de.iip_ecosphere.platform.transport.AppIntercom;
 import de.iip_ecosphere.platform.transport.DefaultTransportFactoryDescriptor;

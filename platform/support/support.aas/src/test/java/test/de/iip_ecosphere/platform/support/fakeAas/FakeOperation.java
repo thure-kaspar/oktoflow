@@ -15,16 +15,16 @@ package test.de.iip_ecosphere.platform.support.fakeAas;
 import java.util.concurrent.ExecutionException;
 import java.util.function.Consumer;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.Invokable;
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.Operation;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementContainerBuilder;
-import de.iip_ecosphere.platform.support.aas.Type;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.RbacAction;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.Role;
-import de.iip_ecosphere.platform.support.aas.Property.PropertyBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.Invokable;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.Operation;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementContainerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.RbacAction;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.Role;
+import de.iip_ecosphere.platform.support.aas.aas.Property.PropertyBuilder;
 
 /**
  * A simple fake operation. No real arguments/parameters, just fake.

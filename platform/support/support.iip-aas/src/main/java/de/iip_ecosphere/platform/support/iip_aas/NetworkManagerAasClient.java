@@ -16,8 +16,8 @@ import java.io.IOException;
 
 import java.util.concurrent.ExecutionException;
 
-import de.iip_ecosphere.platform.support.ServerAddress;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.iip_aas.config.ServerAddressHolder;
 import de.iip_ecosphere.platform.support.net.AbstractNetworkManagerImpl;
 import de.iip_ecosphere.platform.support.net.ManagedServerAddress;

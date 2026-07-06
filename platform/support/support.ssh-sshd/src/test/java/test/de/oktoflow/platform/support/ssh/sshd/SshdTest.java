@@ -6,9 +6,9 @@ import java.io.IOException;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.rest.Rest;
 import de.iip_ecosphere.platform.support.ssh.Ssh;
 import de.iip_ecosphere.platform.support.ssh.Ssh.SshServer;

@@ -22,7 +22,7 @@ import java.util.List;
 import de.iip_ecosphere.platform.connectors.ConnectorParameter;
 import de.iip_ecosphere.platform.connectors.MachineConnector;
 import de.iip_ecosphere.platform.connectors.types.ConnectorOutputTypeTranslator;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.transport.serialization.IipEnum;
 import de.iip_ecosphere.platform.transport.serialization.QualifiedElement;
 

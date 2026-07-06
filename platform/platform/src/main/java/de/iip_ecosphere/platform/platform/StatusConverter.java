@@ -4,11 +4,11 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Function;
 
 import de.iip_ecosphere.platform.services.environment.services.TransportToAasConverter;
-import de.iip_ecosphere.platform.support.aas.AasUtils;
-import de.iip_ecosphere.platform.support.aas.Type;
-import de.iip_ecosphere.platform.support.aas.SubmodelElement;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementContainerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.AasUtils;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementContainerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.transport.status.ActionType;
 import de.iip_ecosphere.platform.transport.status.ActionTypes;

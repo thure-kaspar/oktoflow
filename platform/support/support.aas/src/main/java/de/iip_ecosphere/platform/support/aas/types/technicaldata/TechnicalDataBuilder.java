@@ -1,13 +1,13 @@
 package de.iip_ecosphere.platform.support.aas.types.technicaldata;
 
-import static de.iip_ecosphere.platform.support.aas.IdentifierType.*;
+import static de.iip_ecosphere.platform.support.aas.aas.IdentifierType.*;
 import static de.iip_ecosphere.platform.support.aas.types.common.Utils.*;
 
-import de.iip_ecosphere.platform.support.Builder;
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection.SubmodelElementCollectionBuilder;
-import de.iip_ecosphere.platform.support.aas.*;
+import de.iip_ecosphere.platform.support.aas.aas.*;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection.SubmodelElementCollectionBuilder;
 import de.iip_ecosphere.platform.support.aas.types.common.*;
+import de.iip_ecosphere.platform.support.boot.Builder;
 
 /**
 * Builder support for submodel containing technical data of the asset and associated product classificatons.

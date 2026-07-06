@@ -43,11 +43,11 @@ import org.eclipse.basyx.submodel.metamodel.map.submodelelement.dataelement.prop
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.aas.AssetKind;
-import de.iip_ecosphere.platform.support.aas.Entity.EntityType;
-import de.iip_ecosphere.platform.support.aas.IdentifierType;
-import de.iip_ecosphere.platform.support.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AssetKind;
+import de.iip_ecosphere.platform.support.aas.aas.IdentifierType;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.Entity.EntityType;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 
 /**
  * Some utilities, such as for parameter checking. Public for testing.
@@ -463,7 +463,7 @@ public class Tools {
      * @param ls the AAS lang string
      * @return the BaSyx lang string
      */
-    public static LangString translate(de.iip_ecosphere.platform.support.aas.LangString ls) {
+    public static LangString translate(de.iip_ecosphere.platform.support.aas.aas.LangString ls) {
         return new LangString(ls.getLanguage(), ls.getDescription());
     }
 
@@ -473,8 +473,8 @@ public class Tools {
      * @param ls the BaSyx lang string
      * @return the AAS lang string
      */
-    public static de.iip_ecosphere.platform.support.aas.LangString translate(LangString ls) {
-        return new de.iip_ecosphere.platform.support.aas.LangString(ls.getLanguage(), ls.getDescription());
+    public static de.iip_ecosphere.platform.support.aas.aas.LangString translate(LangString ls) {
+        return new de.iip_ecosphere.platform.support.aas.aas.LangString(ls.getLanguage(), ls.getDescription());
     }
     
     /**
@@ -483,9 +483,9 @@ public class Tools {
      * @param description the description(s) as language string(s)
      * @return the translated BaSyx instance
      */
-    public static LangStrings translate(de.iip_ecosphere.platform.support.aas.LangString... description) {
+    public static LangStrings translate(de.iip_ecosphere.platform.support.aas.aas.LangString... description) {
         LangStrings l = new LangStrings();
-        for (de.iip_ecosphere.platform.support.aas.LangString d: description) {
+        for (de.iip_ecosphere.platform.support.aas.aas.LangString d: description) {
             l.add(Tools.translate(d));
         }
         return l;
@@ -497,12 +497,12 @@ public class Tools {
      * @param ls the LangStrings
      * @return the translation into a map
      */
-    public static Map<String, de.iip_ecosphere.platform.support.aas.LangString> translate(LangStrings ls) {
-        Map<String, de.iip_ecosphere.platform.support.aas.LangString> result = null;
+    public static Map<String, de.iip_ecosphere.platform.support.aas.aas.LangString> translate(LangStrings ls) {
+        Map<String, de.iip_ecosphere.platform.support.aas.aas.LangString> result = null;
         if (null != ls && !ls.isEmpty()) {
             result = new HashMap<>();
             for (String lang : ls.getLanguages()) {
-                result.put(lang, new de.iip_ecosphere.platform.support.aas.LangString(lang, ls.get(lang)));
+                result.put(lang, new de.iip_ecosphere.platform.support.aas.aas.LangString(lang, ls.get(lang)));
             }
         }
         return result;
@@ -518,10 +518,10 @@ public class Tools {
     public static Object translateValueToBaSyx(ValueType type, Object value) {
         if (type == ValueType.LangString) {
             if (value instanceof String) {
-                value = de.iip_ecosphere.platform.support.aas.LangString.create((String) value);
+                value = de.iip_ecosphere.platform.support.aas.aas.LangString.create((String) value);
             } 
-            if (value instanceof de.iip_ecosphere.platform.support.aas.LangString) {
-                value = Tools.translate((de.iip_ecosphere.platform.support.aas.LangString) value);
+            if (value instanceof de.iip_ecosphere.platform.support.aas.aas.LangString) {
+                value = Tools.translate((de.iip_ecosphere.platform.support.aas.aas.LangString) value);
             }
         } else if (type == ValueType.DateTime || type == ValueType.DateTimeStamp) {
             if (value instanceof Date) {

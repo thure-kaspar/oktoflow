@@ -19,8 +19,8 @@ import java.util.concurrent.atomic.AtomicReference;
 import org.eclipse.digitaltwin.basyx.core.exceptions.ElementDoesNotExistException;
 import org.eclipse.digitaltwin.basyx.submodelrepository.client.ConnectedSubmodelRepository;
 
-import de.iip_ecosphere.platform.support.CollectionUtils;
-import de.iip_ecosphere.platform.support.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
 
 /**
  * Implements an abstract BaSyx sub-model element wrapper.

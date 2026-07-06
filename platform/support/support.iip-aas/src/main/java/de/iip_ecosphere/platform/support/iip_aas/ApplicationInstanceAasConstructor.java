@@ -12,21 +12,21 @@
 
 package de.iip_ecosphere.platform.support.iip_aas;
 
+import static de.iip_ecosphere.platform.support.aas.aas.AasUtils.fixId;
+
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
-import de.iip_ecosphere.platform.support.OsUtils;
-import de.iip_ecosphere.platform.support.aas.AasUtils;
-import de.iip_ecosphere.platform.support.aas.Property;
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
-import de.iip_ecosphere.platform.support.aas.SubmodelElement;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection.SubmodelElementCollectionBuilder;
-import de.iip_ecosphere.platform.support.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AasUtils;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection.SubmodelElementCollectionBuilder;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase.NotificationMode;
-
-import static de.iip_ecosphere.platform.support.aas.AasUtils.fixId;
 
 /**
  * A class to construct the AAS submodel for application instances. This class is intentionally not an AAS rather

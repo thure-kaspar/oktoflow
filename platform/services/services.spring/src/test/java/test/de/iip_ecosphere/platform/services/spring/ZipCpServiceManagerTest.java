@@ -37,8 +37,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import de.iip_ecosphere.platform.services.spring.SpringCloudServiceSetup;
 import de.iip_ecosphere.platform.services.spring.SpringCloudServiceManager;
 import de.iip_ecosphere.platform.services.spring.StartupApplicationListener;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.setup.AbstractSetup;
 
 /**

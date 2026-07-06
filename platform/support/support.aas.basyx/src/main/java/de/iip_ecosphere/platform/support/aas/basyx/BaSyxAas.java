@@ -17,13 +17,13 @@ import org.eclipse.basyx.aas.metamodel.map.AssetAdministrationShell;
 import org.eclipse.basyx.aas.metamodel.map.parts.Asset;
 import org.eclipse.basyx.submodel.metamodel.map.reference.Reference;
 
-import de.iip_ecosphere.platform.support.Builder;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AssetInformation.AssetInformationBuilder;
-import de.iip_ecosphere.platform.support.aas.AssetKind;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AssetKind;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.AssetInformation.AssetInformationBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.boot.Builder;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

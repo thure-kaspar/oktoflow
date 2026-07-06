@@ -25,7 +25,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import de.iip_ecosphere.platform.support.Filter;
+import de.iip_ecosphere.platform.support.boot.Filter;
 import de.iip_ecosphere.platform.support.plugins.PluginManager;
 
 /**

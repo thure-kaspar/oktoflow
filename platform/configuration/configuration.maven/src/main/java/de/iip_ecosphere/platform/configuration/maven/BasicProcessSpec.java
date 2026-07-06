@@ -20,7 +20,7 @@ import org.apache.maven.plugin.logging.Log;
 import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.project.MavenProject;
 
-import de.iip_ecosphere.platform.support.NetUtils;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
 
 /**
  * Defines an additional process to be executed in the build process.

@@ -26,7 +26,7 @@ import org.eclipse.basyx.submodel.metamodel.map.submodelelement.dataelement.prop
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
 import de.iip_ecosphere.platform.support.aas.basyx.Tools;
 
 /**
@@ -119,8 +119,8 @@ public class ToolTests {
         for (AssetKind k : AssetKind.values()) {
             assertEquals(k, Tools.translate(k));
         }
-        for (de.iip_ecosphere.platform.support.aas.AssetKind k 
-            : de.iip_ecosphere.platform.support.aas.AssetKind.values()) {
+        for (de.iip_ecosphere.platform.support.aas.aas.AssetKind k 
+            : de.iip_ecosphere.platform.support.aas.aas.AssetKind.values()) {
             assertEquals(k, Tools.translate(k));
         }
     }

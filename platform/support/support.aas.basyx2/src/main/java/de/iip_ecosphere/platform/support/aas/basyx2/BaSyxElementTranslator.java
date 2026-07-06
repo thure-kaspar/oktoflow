@@ -17,16 +17,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
 
-import de.iip_ecosphere.platform.support.aas.FileDataElement;
-import de.iip_ecosphere.platform.support.aas.Property;
-import de.iip_ecosphere.platform.support.aas.ReferenceElement;
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.SubmodelElement;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementContainerBuilder;
-import de.iip_ecosphere.platform.support.aas.Submodel.IteratorFunction;
 import de.iip_ecosphere.platform.support.aas.basyx2.BaSyxSubmodelElementCollection
     .BaSyxSubmodelElementCollectionBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.FileDataElement;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.ReferenceElement;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementContainerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.IteratorFunction;
 import de.iip_ecosphere.platform.support.aas.basyx2.AbstractAasRestInvocablesCreator.Operation;
 
 /**

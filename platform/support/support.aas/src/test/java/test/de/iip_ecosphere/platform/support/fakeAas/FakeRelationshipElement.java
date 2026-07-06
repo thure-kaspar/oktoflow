@@ -12,10 +12,10 @@
 
 package test.de.iip_ecosphere.platform.support.fakeAas;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.Reference;
-import de.iip_ecosphere.platform.support.aas.RelationshipElement;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.Reference;
+import de.iip_ecosphere.platform.support.aas.aas.RelationshipElement;
 
 /**
  * Implements a fake relationship element for testing.

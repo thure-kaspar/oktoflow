@@ -8,12 +8,12 @@ import java.util.List;
 import org.slf4j.LoggerFactory;
 
 import de.iip_ecosphere.platform.services.environment.spring.Starter;
-import de.iip_ecosphere.platform.support.CollectionUtils;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import test.de.iip_ecosphere.platform.transport.AbstractTestServer;
 import test.de.iip_ecosphere.platform.transport.TestServerBuilder;
 

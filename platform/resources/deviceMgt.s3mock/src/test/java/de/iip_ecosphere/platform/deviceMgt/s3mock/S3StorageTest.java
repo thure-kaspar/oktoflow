@@ -26,7 +26,7 @@ import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 
 import de.iip_ecosphere.platform.deviceMgt.storage.Storage;
-import de.iip_ecosphere.platform.support.NetUtils;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
 
 import java.io.File;
 import java.io.IOException;

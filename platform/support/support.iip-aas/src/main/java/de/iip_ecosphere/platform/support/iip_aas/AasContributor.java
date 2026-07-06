@@ -12,11 +12,11 @@
 
 package de.iip_ecosphere.platform.support.iip_aas;
 
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.InvocablesCreator;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.InvocablesCreator;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
 import de.iip_ecosphere.platform.support.jsl.ExcludeFirst;
 
 /**

@@ -15,8 +15,8 @@ package de.iip_ecosphere.platform.platform.cli;
 import java.io.IOException;
 
 import de.iip_ecosphere.platform.ecsRuntime.ResourcesClient;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 
 /**

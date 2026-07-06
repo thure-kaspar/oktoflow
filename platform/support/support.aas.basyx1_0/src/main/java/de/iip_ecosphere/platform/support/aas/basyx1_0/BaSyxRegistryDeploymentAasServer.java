@@ -4,7 +4,7 @@ import org.eclipse.basyx.components.aas.AASServerComponent;
 import org.eclipse.basyx.components.aas.configuration.AASServerBackend;
 import org.eclipse.basyx.components.aas.configuration.BaSyxAASServerConfiguration;
 
-import de.iip_ecosphere.platform.support.aas.AasServer;
+import de.iip_ecosphere.platform.support.aas.aas.AasServer;
 import de.iip_ecosphere.platform.support.aas.basyx.BaSyxAbstractAasServer;
 import de.iip_ecosphere.platform.support.aas.basyx.DeploymentSpec;
 import de.iip_ecosphere.platform.support.aas.basyx.VersionAdjustment;

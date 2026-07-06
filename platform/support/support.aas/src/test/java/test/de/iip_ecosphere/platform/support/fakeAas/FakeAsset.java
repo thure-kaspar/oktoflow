@@ -12,11 +12,11 @@
 
 package test.de.iip_ecosphere.platform.support.fakeAas;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.AssetInformation;
-import de.iip_ecosphere.platform.support.aas.AssetKind;
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.Reference;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.AssetInformation;
+import de.iip_ecosphere.platform.support.aas.aas.AssetKind;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.Reference;
 import test.de.iip_ecosphere.platform.support.fakeAas.FakeAas.FakeAasBuilder;
 
 /**

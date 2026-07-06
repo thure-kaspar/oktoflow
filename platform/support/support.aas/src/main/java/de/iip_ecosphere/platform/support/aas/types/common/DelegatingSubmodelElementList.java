@@ -12,17 +12,17 @@
 
 package de.iip_ecosphere.platform.support.aas.types.common;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.DataElement;
-import de.iip_ecosphere.platform.support.aas.Entity;
-import de.iip_ecosphere.platform.support.aas.Operation;
-import de.iip_ecosphere.platform.support.aas.Property;
-import de.iip_ecosphere.platform.support.aas.Reference;
-import de.iip_ecosphere.platform.support.aas.ReferenceElement;
-import de.iip_ecosphere.platform.support.aas.RelationshipElement;
-import de.iip_ecosphere.platform.support.aas.SubmodelElement;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementList;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.DataElement;
+import de.iip_ecosphere.platform.support.aas.aas.Entity;
+import de.iip_ecosphere.platform.support.aas.aas.Operation;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.Reference;
+import de.iip_ecosphere.platform.support.aas.aas.ReferenceElement;
+import de.iip_ecosphere.platform.support.aas.aas.RelationshipElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementList;
 
 /**
  * A delegating submodel elements list.

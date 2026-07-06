@@ -2,10 +2,10 @@ package de.iip_ecosphere.platform.support.iip_aas.config;
 
 import java.io.IOException;
 
-import de.iip_ecosphere.platform.support.Ignore;
-import de.iip_ecosphere.platform.support.NetUtils;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Ignore;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.json.Json;
 
 /**

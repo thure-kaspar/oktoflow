@@ -62,12 +62,12 @@ import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.fasterxml.jackson.databind.ser.BeanPropertyWriter;
 import com.fasterxml.jackson.databind.ser.BeanSerializerModifier;
 
-import de.iip_ecosphere.platform.support.CollectionUtils;
-import de.iip_ecosphere.platform.support.ConfiguredName;
-import de.iip_ecosphere.platform.support.Filter;
-import de.iip_ecosphere.platform.support.Ignore;
-import de.iip_ecosphere.platform.support.IgnoreProperties;
-import de.iip_ecosphere.platform.support.Include;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
+import de.iip_ecosphere.platform.support.boot.ConfiguredName;
+import de.iip_ecosphere.platform.support.boot.Filter;
+import de.iip_ecosphere.platform.support.boot.Ignore;
+import de.iip_ecosphere.platform.support.boot.IgnoreProperties;
+import de.iip_ecosphere.platform.support.boot.Include;
 import de.iip_ecosphere.platform.support.json.IOIterator;
 import de.iip_ecosphere.platform.support.json.Json.EnumMapping;
 

@@ -24,7 +24,7 @@ import java.util.Set;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.oktoflow.platform.cmdTools.PomReader;
 import de.oktoflow.platform.cmdTools.PomReader.PomInfo;
 

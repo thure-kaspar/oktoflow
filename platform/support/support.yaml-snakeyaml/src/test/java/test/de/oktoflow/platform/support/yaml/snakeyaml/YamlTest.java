@@ -8,7 +8,7 @@ import java.util.Iterator;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.IOUtils;
+import de.iip_ecosphere.platform.support.boot.IOUtils;
 import de.iip_ecosphere.platform.support.function.IOFunction;
 import de.iip_ecosphere.platform.support.resources.ResourceLoader;
 import de.iip_ecosphere.platform.support.yaml.Yaml;

@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import de.iip_ecosphere.platform.services.environment.AbstractProcessService;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 
 /**
  * Integration of <a href="https://github.com/kiprotect/kodex">KIPROTECT KODEX</a> as a service. 

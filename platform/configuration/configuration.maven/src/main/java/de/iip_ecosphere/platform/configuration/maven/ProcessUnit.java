@@ -34,8 +34,8 @@ import java.util.regex.Pattern;
 import org.apache.commons.lang.SystemUtils;
 import org.apache.maven.plugin.MojoExecutionException;
 
-import de.iip_ecosphere.platform.support.CollectionUtils;
-import de.iip_ecosphere.platform.support.JavaUtils;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
+import de.iip_ecosphere.platform.support.boot.JavaUtils;
 import de.iip_ecosphere.platform.tools.maven.python.Logger;
 import de.iip_ecosphere.platform.tools.maven.python.StandardLogger;
 

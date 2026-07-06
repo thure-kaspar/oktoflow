@@ -10,7 +10,7 @@
  ********************************************************************************/
 package de.iip_ecosphere.platform.transport.connectors;
 
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.identities.IdentityStore;
 import de.iip_ecosphere.platform.transport.connectors.basics.MqttQoS;
 

@@ -12,8 +12,8 @@ package test.de.iip_ecosphere.platform.test.amqp.qpid;
 
 import java.io.File;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 /**
  * A simple AMQP server for testing/experiments. This class works with Java 8.

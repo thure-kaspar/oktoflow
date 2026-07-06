@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.support.iip_aas.config;
 
-import de.iip_ecosphere.platform.support.Schema;
+import de.iip_ecosphere.platform.support.boot.Schema;
 
 /**
  * A basic endpoint holder validator just passing through all input data.

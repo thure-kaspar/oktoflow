@@ -17,15 +17,15 @@ import java.io.File;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.Invokable;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
-import de.iip_ecosphere.platform.support.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.Invokable;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
 import de.iip_ecosphere.platform.support.aas.basyx.BaSyxAasFactory;
+import de.iip_ecosphere.platform.support.boot.Schema;
 import de.iip_ecosphere.platform.support.net.KeyStoreDescriptor;
-import test.de.iip_ecosphere.platform.support.aas.AasTest;
+import test.de.iip_ecosphere.platform.support.aas.aas.AasTest;
 
 /**
  * Tests the AAS abstraction implementation for BaSyx.

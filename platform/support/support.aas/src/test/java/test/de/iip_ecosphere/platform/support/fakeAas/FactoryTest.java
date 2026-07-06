@@ -18,26 +18,26 @@ import java.io.IOException;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.AssetKind;
-import de.iip_ecosphere.platform.support.aas.BasicSetupSpec;
-import de.iip_ecosphere.platform.support.aas.DeploymentRecipe;
-import de.iip_ecosphere.platform.support.aas.InvocablesCreator;
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.PersistenceRecipe;
-import de.iip_ecosphere.platform.support.aas.ProtocolDescriptor;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
-import de.iip_ecosphere.platform.support.aas.Registry;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe;
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe.LocalPersistenceType;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AssetKind;
+import de.iip_ecosphere.platform.support.aas.aas.BasicSetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.DeploymentRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.InvocablesCreator;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.PersistenceRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Registry;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe.LocalPersistenceType;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.net.KeyStoreDescriptor;
-import de.iip_ecosphere.platform.support.aas.Type;
 
 /**
  * Tests the factory/descriptor.

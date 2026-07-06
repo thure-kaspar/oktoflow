@@ -12,24 +12,23 @@
 
 package de.iip_ecosphere.platform.support.aas.basyx;
 
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.RbacAction;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.Role;
-import de.iip_ecosphere.platform.support.aas.LangString;
-
 import java.util.function.Consumer;
 
 import org.eclipse.basyx.submodel.metamodel.api.identifier.IIdentifier;
 import org.eclipse.basyx.submodel.metamodel.api.reference.IReference;
 
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.SubmodelElement;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection.SubmodelElementCollectionBuilder;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementContainerBuilder;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementList;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementList.SubmodelElementListBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementContainerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementList;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.RbacAction;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.Role;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection.SubmodelElementCollectionBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementList.SubmodelElementListBuilder;
 import de.iip_ecosphere.platform.support.aas.basyx.AbstractAas.BaSyxAbstractAasBuilder;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 

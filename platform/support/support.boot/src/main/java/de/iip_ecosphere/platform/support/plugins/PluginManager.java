@@ -27,8 +27,8 @@ import java.util.StringTokenizer;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-import de.iip_ecosphere.platform.support.IOUtils;
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.IOUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 import de.iip_ecosphere.platform.support.jsl.ServiceLoaderUtils;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.oktoflow.platform.tools.lib.loader.LoaderIndex;

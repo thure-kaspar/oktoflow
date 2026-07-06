@@ -20,7 +20,7 @@ import org.junit.Test;
 
 import de.iip_ecosphere.platform.ecsRuntime.deviceAas.DeviceAasProvider;
 import de.iip_ecosphere.platform.ecsRuntime.deviceAas.YamlDeviceAasProvider;
-import de.iip_ecosphere.platform.support.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
 import de.iip_ecosphere.platform.support.iip_aas.NameplateSetup;
 
 import org.junit.Assert;

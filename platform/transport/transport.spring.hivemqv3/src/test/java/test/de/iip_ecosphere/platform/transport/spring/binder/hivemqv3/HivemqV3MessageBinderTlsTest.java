@@ -16,8 +16,8 @@ import java.io.File;
 
 import org.junit.BeforeClass;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.transport.spring.binder.hivemqv3.HivemqV3Client;
 import de.iip_ecosphere.platform.transport.spring.binder.hivemqv3.HivemqV3Configuration;
 

@@ -1,7 +1,7 @@
 package de.iip_ecosphere.platform.support.net;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 /**
  * A specialized managed {@link ServerAddress} containing information whether the address/port is already

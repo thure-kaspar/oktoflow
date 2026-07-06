@@ -17,8 +17,8 @@ import java.util.Collection;
 import org.eclipse.basyx.submodel.metamodel.map.qualifier.LangStrings;
 import org.eclipse.basyx.submodel.metamodel.map.submodelelement.dataelement.MultiLanguageProperty;
 
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.MultiLanguageDataElement;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.MultiLanguageDataElement;
 
 /**
  * Wraps a BaSyx multi-language data element.
@@ -57,7 +57,7 @@ public class BaSyxMultiLanguageDataElement extends BaSyxDataElement<MultiLanguag
     private static MultiLanguageProperty createInstance(String idShort, Collection<LangString> texts) {
         MultiLanguageProperty result = new MultiLanguageProperty(idShort);
         LangStrings ls = new LangStrings();
-        for (de.iip_ecosphere.platform.support.aas.LangString e : texts) {
+        for (de.iip_ecosphere.platform.support.aas.aas.LangString e : texts) {
             ls.add(new org.eclipse.basyx.submodel.metamodel.map.qualifier.LangString(
                 e.getLanguage(), e.getDescription()));
         }

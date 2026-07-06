@@ -12,8 +12,8 @@
 
 package de.iip_ecosphere.platform.configuration.cfg;
 
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
 
 /**
  * Represents an AAS change.

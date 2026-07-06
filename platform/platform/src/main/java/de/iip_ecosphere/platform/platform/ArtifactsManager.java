@@ -29,7 +29,7 @@ import de.iip_ecosphere.platform.ecsRuntime.BasicContainerDescriptor;
 import de.iip_ecosphere.platform.platform.cli.ServiceDeploymentPlan;
 import de.iip_ecosphere.platform.services.environment.YamlArtifact;
 import de.iip_ecosphere.platform.support.Version;
-import de.iip_ecosphere.platform.support.ZipUtils;
+import de.iip_ecosphere.platform.support.boot.ZipUtils;
 import de.iip_ecosphere.platform.support.commons.Commons;
 import de.iip_ecosphere.platform.support.commons.FileAlterationListener;
 import de.iip_ecosphere.platform.support.commons.FileAlterationMonitor;

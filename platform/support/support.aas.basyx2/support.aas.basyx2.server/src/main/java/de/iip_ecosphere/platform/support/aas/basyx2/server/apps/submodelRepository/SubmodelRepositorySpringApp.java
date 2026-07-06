@@ -54,7 +54,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
 import de.iip_ecosphere.platform.support.aas.basyx2.common.AssetServerKeyStoreDescriptor;
 import de.iip_ecosphere.platform.support.aas.basyx2.server.apps.common.BaSyxExceptionResolver;
 import de.iip_ecosphere.platform.support.aas.basyx2.server.apps.common.BaSyxNames;

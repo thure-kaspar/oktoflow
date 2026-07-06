@@ -17,7 +17,7 @@ import java.io.File;
 import com.sun.jna.Native;
 import com.sun.jna.Platform;
 
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 
 /**
  * Provides access to the {@link TcAds} library.

@@ -19,8 +19,8 @@ import java.nio.charset.Charset;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.collector.Collector;
 import de.iip_ecosphere.platform.support.collector.Collector.Field;
 import de.iip_ecosphere.platform.support.collector.CollectorSetup;

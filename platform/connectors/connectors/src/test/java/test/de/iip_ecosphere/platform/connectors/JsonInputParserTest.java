@@ -22,7 +22,7 @@ import de.iip_ecosphere.platform.connectors.parser.JsonInputParser.JsonInputConv
 import de.iip_ecosphere.platform.connectors.parser.JsonInputParser.JsonParseResult;
 import de.iip_ecosphere.platform.support.plugins.CurrentClassloaderPluginSetupDescriptor;
 import de.iip_ecosphere.platform.support.plugins.PluginManager;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 /**
  * Tests {@link JsonInputParser}.

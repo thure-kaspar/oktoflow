@@ -12,8 +12,6 @@
 
 package test.de.oktoflow.platform.support.commons.apache;
 
-import de.iip_ecosphere.platform.support.TimeUtils;
-
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.Date;
@@ -21,6 +19,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 
 /**
  * Tests {@link TimeUtils}.

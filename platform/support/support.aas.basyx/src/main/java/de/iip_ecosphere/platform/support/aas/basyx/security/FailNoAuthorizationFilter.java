@@ -30,7 +30,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.context.SecurityContextHolderStrategy;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
 
 /**
  * Request filter to fail if there is no authorization.

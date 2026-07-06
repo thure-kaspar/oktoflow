@@ -17,7 +17,7 @@ import java.net.UnknownHostException;
 
 import de.iip_ecosphere.platform.connectors.modbustcpipv1.ModbusMap;
 import de.iip_ecosphere.platform.connectors.modbustcpipv1.ModbusVarItem;
-import de.iip_ecosphere.platform.support.NetUtils;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
 import de.iip_ecosphere.platform.support.json.JsonUtils;
 import net.wimpi.modbus.Modbus;
 import net.wimpi.modbus.ModbusCoupler;

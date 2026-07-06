@@ -15,8 +15,8 @@ package test.de.iip_ecosphere.platform.support.metrics.plcnext;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.metrics.SystemMetrics;
-import de.iip_ecosphere.platform.support.metrics.SystemMetricsFactory;
+import de.iip_ecosphere.platform.support.aas.metrics.SystemMetrics;
+import de.iip_ecosphere.platform.support.aas.metrics.SystemMetricsFactory;
 import de.iip_ecosphere.platform.support.metrics.plcnext.PlcNextSystemMetrics;
 
 /**

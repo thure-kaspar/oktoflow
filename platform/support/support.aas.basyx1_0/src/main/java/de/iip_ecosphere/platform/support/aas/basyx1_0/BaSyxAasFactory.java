@@ -19,9 +19,9 @@ import org.eclipse.basyx.submodel.metamodel.map.submodelelement.dataelement.prop
 import org.eclipse.basyx.submodel.metamodel.map.submodelelement.operation.Operation;
 import org.eclipse.basyx.vab.protocol.http.server.BaSyxContext;
 
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.AasComponent;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.AasComponent;
 import de.iip_ecosphere.platform.support.aas.basyx.AbstractBaSyxAasFactory;
 import de.iip_ecosphere.platform.support.aas.basyx.BaSyxAbstractAasServer;
 import de.iip_ecosphere.platform.support.aas.basyx.DeploymentSpec;

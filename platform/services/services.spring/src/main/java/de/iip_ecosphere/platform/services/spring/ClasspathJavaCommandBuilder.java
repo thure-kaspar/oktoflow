@@ -36,9 +36,9 @@ import org.springframework.cloud.deployer.spi.local.JavaCommandBuilder;
 import org.springframework.cloud.deployer.spi.local.LocalDeployerProperties;
 import org.springframework.core.io.Resource;
 
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.OsUtils;
-import de.iip_ecosphere.platform.support.ZipUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
+import de.iip_ecosphere.platform.support.boot.ZipUtils;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 

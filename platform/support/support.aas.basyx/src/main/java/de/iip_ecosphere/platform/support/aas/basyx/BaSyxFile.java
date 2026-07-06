@@ -15,8 +15,8 @@ package de.iip_ecosphere.platform.support.aas.basyx;
 import org.eclipse.basyx.submodel.metamodel.api.reference.IReference;
 import org.eclipse.basyx.submodel.metamodel.map.submodelelement.dataelement.File;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.FileDataElement;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.FileDataElement;
 
 /**
  * Wraps a BaSyx file data element. Shall be created by respective builder methods.

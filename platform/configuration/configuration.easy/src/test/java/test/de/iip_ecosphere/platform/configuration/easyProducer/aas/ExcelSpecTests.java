@@ -19,7 +19,7 @@ import java.nio.charset.Charset;
 import org.junit.Test;
 
 import de.iip_ecosphere.platform.configuration.easyProducer.aas.ReadExcelFile;
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 
 import org.junit.Assert;
 

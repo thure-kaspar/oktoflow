@@ -19,11 +19,11 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.ComponentSetup;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.State;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.ComponentSetup;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.State;
 import de.iip_ecosphere.platform.support.aas.basyx2.common.Tools;
+import de.iip_ecosphere.platform.support.boot.Schema;
 import de.iip_ecosphere.platform.support.net.HttpClientHelper;
 import de.iip_ecosphere.platform.support.net.KeyStoreDescriptor;
 

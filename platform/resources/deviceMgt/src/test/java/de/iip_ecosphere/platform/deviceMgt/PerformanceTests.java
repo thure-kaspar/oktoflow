@@ -14,22 +14,22 @@ package de.iip_ecosphere.platform.deviceMgt;
 
 import de.iip_ecosphere.platform.deviceMgt.registry.DeviceRegistryClient;
 import de.iip_ecosphere.platform.deviceMgt.registry.DeviceRegistryClientFactory;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasPrintVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasPrintVisitor;
+import de.iip_ecosphere.platform.support.boot.Server;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import static de.iip_ecosphere.platform.support.aas.aas.AasUtils.fixId;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
-
-import static de.iip_ecosphere.platform.support.aas.AasUtils.fixId;
 
 /**
  * Performance tests.

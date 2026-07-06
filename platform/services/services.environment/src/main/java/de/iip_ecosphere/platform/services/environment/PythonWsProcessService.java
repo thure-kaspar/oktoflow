@@ -21,7 +21,7 @@ import java.util.concurrent.ExecutionException;
 
 import de.iip_ecosphere.platform.services.environment.GenericMultiTypeServiceImpl.OutTypeInfo;
 import de.iip_ecosphere.platform.services.environment.services.WsAdapter;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.json.Json;
 import de.iip_ecosphere.platform.support.json.JsonUtils;
 import de.iip_ecosphere.platform.support.net.NetworkManagerFactory;

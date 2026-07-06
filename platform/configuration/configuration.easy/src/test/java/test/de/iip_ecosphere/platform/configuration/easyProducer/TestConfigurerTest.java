@@ -21,7 +21,7 @@ import org.junit.Test;
 
 import de.iip_ecosphere.platform.configuration.easyProducer.EasySetup;
 import test.de.iip_ecosphere.platform.configuration.easyProducer.AbstractIvmlTests.TestConfigurer;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 /**
  * Tests the {@link TestConfigurer}.

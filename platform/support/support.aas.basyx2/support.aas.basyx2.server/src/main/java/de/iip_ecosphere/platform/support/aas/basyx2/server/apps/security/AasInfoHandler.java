@@ -14,8 +14,8 @@ package de.iip_ecosphere.platform.support.aas.basyx2.server.apps.security;
 
 import org.eclipse.digitaltwin.basyx.aasrepository.feature.authorization.AasTargetInformation;
 
-import de.iip_ecosphere.platform.support.CollectionUtils;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.RbacRule;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.RbacRule;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
 
 /**
  * A target information handler for AAS target information.

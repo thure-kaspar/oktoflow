@@ -24,29 +24,29 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.CollectionUtils;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.TimeUtils;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.InvocablesCreator;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.Type;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.InvocablesCreator;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.iip_aas.AasBasedSetup;
 import de.iip_ecosphere.platform.support.iip_aas.AasContributor;
 import de.iip_ecosphere.platform.support.iip_aas.AasContributor.Kind;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase.NotificationMode;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry.AasMode;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry.AasSetup;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
 import de.iip_ecosphere.platform.support.iip_aas.PlatformAas;
 import de.iip_ecosphere.platform.support.iip_aas.SubmodelClient;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
 
 /**
  * Tests {@link AasPartRegistry}, {@link ActiveAasBase} and {@link SubmodelClient}. Do not rename, this class is 

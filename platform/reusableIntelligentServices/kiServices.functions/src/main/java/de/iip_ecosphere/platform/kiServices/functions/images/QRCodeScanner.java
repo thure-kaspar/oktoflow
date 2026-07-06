@@ -24,7 +24,7 @@ import com.google.zxing.common.HybridBinarizer;
 
 import de.iip_ecosphere.platform.services.environment.ProcessSupport;
 import de.iip_ecosphere.platform.services.environment.ProcessSupport.ScriptOwner;
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 
 /**
  * Offers the functionality of reading in qr codes.

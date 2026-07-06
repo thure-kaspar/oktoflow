@@ -12,8 +12,8 @@
 
 package test.de.iip_ecosphere.platform.support.fakeAas;
 
-import de.iip_ecosphere.platform.support.aas.InvocablesCreator;
-import de.iip_ecosphere.platform.support.aas.Invokable;
+import de.iip_ecosphere.platform.support.aas.aas.InvocablesCreator;
+import de.iip_ecosphere.platform.support.aas.aas.Invokable;
 
 /**
  * A fake invocables creator that does nothing (in case that the fake AAS is active in basic component tests).

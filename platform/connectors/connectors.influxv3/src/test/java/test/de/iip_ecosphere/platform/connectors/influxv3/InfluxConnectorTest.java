@@ -41,8 +41,8 @@ import de.iip_ecosphere.platform.connectors.events.SimpleTimeseriesQuery.TimeKin
 import de.iip_ecosphere.platform.connectors.influxv3.InfluxConnector;
 import de.iip_ecosphere.platform.connectors.model.ModelAccess;
 import de.iip_ecosphere.platform.connectors.types.TranslatingProtocolAdapter;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.identities.IdentityToken;
 import de.iip_ecosphere.platform.support.identities.IdentityToken.IdentityTokenBuilder;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;

@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.support.aas.types.common;
 
-import de.iip_ecosphere.platform.support.aas.SubmodelElementContainerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementContainerBuilder;
 
 /**
  * A delegating type representat for {@link SubmodelElementContainerBuilder}.

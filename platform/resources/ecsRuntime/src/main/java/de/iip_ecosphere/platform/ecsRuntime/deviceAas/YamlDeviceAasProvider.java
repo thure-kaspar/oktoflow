@@ -15,16 +15,16 @@ package de.iip_ecosphere.platform.ecsRuntime.deviceAas;
 import de.iip_ecosphere.platform.ecsRuntime.EcsFactory;
 import de.iip_ecosphere.platform.ecsRuntime.Monitor;
 import de.iip_ecosphere.platform.services.environment.metricsProvider.metricsAas.MetricsAasConstructor;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.Registry;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
 
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AasUtils;
+import de.iip_ecosphere.platform.support.aas.aas.Registry;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
-import de.iip_ecosphere.platform.support.aas.AasUtils;
 import de.iip_ecosphere.platform.support.iip_aas.Id;
 import de.iip_ecosphere.platform.support.iip_aas.NameplateSetup;
 import de.iip_ecosphere.platform.support.setup.AbstractSetup;

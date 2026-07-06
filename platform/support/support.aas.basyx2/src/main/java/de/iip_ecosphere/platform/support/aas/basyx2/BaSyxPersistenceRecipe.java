@@ -21,8 +21,8 @@ import java.util.List;
 import java.util.Map;
 
 import de.iip_ecosphere.platform.support.FileFormat;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.PersistenceRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.PersistenceRecipe;
 
 /**
  * A persistence recipe for BaSyx AAS. This implementation is internally based on short ids. 

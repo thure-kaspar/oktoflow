@@ -25,9 +25,9 @@ import org.eclipse.digitaltwin.aas4j.v3.model.Environment;
 import org.eclipse.digitaltwin.aas4j.v3.model.impl.DefaultEnvironment;
 
 import de.iip_ecosphere.platform.support.FileFormat;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.PersistenceRecipe;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.PersistenceRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
 
 /**
  * Basic supporting functions for persistency.

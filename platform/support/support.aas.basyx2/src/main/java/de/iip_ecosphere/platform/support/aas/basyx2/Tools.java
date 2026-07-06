@@ -38,12 +38,12 @@ import org.eclipse.digitaltwin.aas4j.v3.model.impl.DefaultKey;
 import org.eclipse.digitaltwin.aas4j.v3.model.impl.DefaultLangStringTextType;
 import org.eclipse.digitaltwin.aas4j.v3.model.impl.DefaultReference;
 
-import de.iip_ecosphere.platform.support.aas.AssetKind;
-import de.iip_ecosphere.platform.support.aas.Entity.EntityType;
-import de.iip_ecosphere.platform.support.aas.IdentifierType;
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.SemanticIdRecognizer;
-import de.iip_ecosphere.platform.support.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AssetKind;
+import de.iip_ecosphere.platform.support.aas.aas.IdentifierType;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.SemanticIdRecognizer;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.Entity.EntityType;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**
@@ -622,9 +622,9 @@ public class Tools extends de.iip_ecosphere.platform.support.aas.basyx2.common.T
      * @param description the description(s) as language string(s)
      * @return the translated BaSyx instance
      */
-    public static List<LangStringTextType> translate(de.iip_ecosphere.platform.support.aas.LangString... description) {
+    public static List<LangStringTextType> translate(de.iip_ecosphere.platform.support.aas.aas.LangString... description) {
         List<LangStringTextType> result = new ArrayList<>();
-        for (de.iip_ecosphere.platform.support.aas.LangString d: description) {
+        for (de.iip_ecosphere.platform.support.aas.aas.LangString d: description) {
             result.add(Tools.translate(d));
         }
         return result;
@@ -651,7 +651,7 @@ public class Tools extends de.iip_ecosphere.platform.support.aas.basyx2.common.T
      * @param ls the AAS lang string
      * @return the BaSyx lang string
      */
-    public static LangStringTextType translate(de.iip_ecosphere.platform.support.aas.LangString ls) {
+    public static LangStringTextType translate(de.iip_ecosphere.platform.support.aas.aas.LangString ls) {
         DefaultLangStringTextType s = new DefaultLangStringTextType();
         s.setLanguage(ls.getLanguage());
         s.setText(ls.getDescription());
@@ -664,12 +664,12 @@ public class Tools extends de.iip_ecosphere.platform.support.aas.basyx2.common.T
      * @param ls the LangStrings
      * @return the translation into a map
      */
-    public static Map<String, de.iip_ecosphere.platform.support.aas.LangString> translate(List<LangStringTextType> ls) {
-        Map<String, de.iip_ecosphere.platform.support.aas.LangString> result = null;
+    public static Map<String, de.iip_ecosphere.platform.support.aas.aas.LangString> translate(List<LangStringTextType> ls) {
+        Map<String, de.iip_ecosphere.platform.support.aas.aas.LangString> result = null;
         if (null != ls && !ls.isEmpty()) {
             result = new HashMap<>();
             for (LangStringTextType lang : ls) {
-                result.put(lang.getLanguage(), new de.iip_ecosphere.platform.support.aas.LangString(
+                result.put(lang.getLanguage(), new de.iip_ecosphere.platform.support.aas.aas.LangString(
                     lang.getLanguage(), lang.getText()));
             }
         }

@@ -39,7 +39,7 @@ import de.iip_ecosphere.platform.services.environment.YamlService;
 
 import de.iip_ecosphere.platform.services.environment.spring.metricsProvider.MetricsProvider;
 import de.iip_ecosphere.platform.services.environment.switching.ServiceBase;
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.iip_ecosphere.platform.support.metrics.Counter;
 import de.iip_ecosphere.platform.support.metrics.Timer;
 import de.iip_ecosphere.platform.support.resources.ResourceLoader;

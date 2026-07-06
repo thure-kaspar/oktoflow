@@ -18,7 +18,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import de.iip_ecosphere.platform.services.spring.SpringLifecycleDescriptor;
-import de.iip_ecosphere.platform.support.LifecycleHandler;
+import de.iip_ecosphere.platform.support.aas.LifecycleHandler;
 
 /**
  * Tests the lifecycle descriptor and the startup behavior/dependencies.

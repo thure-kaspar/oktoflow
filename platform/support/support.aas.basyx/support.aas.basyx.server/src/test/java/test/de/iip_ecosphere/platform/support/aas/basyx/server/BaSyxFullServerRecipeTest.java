@@ -16,17 +16,17 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.AasServer;
-import de.iip_ecosphere.platform.support.aas.BasicSetupSpec;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe.LocalPersistenceType;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe.PersistenceType;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AasServer;
+import de.iip_ecosphere.platform.support.aas.aas.BasicSetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe.LocalPersistenceType;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe.PersistenceType;
 import de.iip_ecosphere.platform.support.aas.basyx.server.BaSyxFullServerRecipe;
 import de.iip_ecosphere.platform.support.aas.basyx.server.BaSyxFullServerRecipe.ServerPersistenceType;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 /**
  * Tests {@link BaSyxFullServerRecipe}.

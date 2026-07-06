@@ -19,7 +19,7 @@ import java.util.Date;
 import java.util.List;
 
 import de.iip_ecosphere.platform.connectors.formatter.OutputFormatter.OutputConverter;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.transport.serialization.QualifiedElement;
 
 /**

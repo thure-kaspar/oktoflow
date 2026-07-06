@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.ecsRuntime.kubernetes.proxy;
 
-import de.iip_ecosphere.platform.support.LifecycleDescriptor;
+import de.iip_ecosphere.platform.support.aas.LifecycleDescriptor;
 
 /**
  * Defines the lifecycle for the Kubernetes proxy. A deployment instantiation can decide which lifecycle

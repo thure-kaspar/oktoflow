@@ -12,7 +12,7 @@
 
 package test.de.iip_ecosphere.platform.support.aas.basyx;
 
-import test.de.iip_ecosphere.platform.support.aas.ContactInformationsTest;
+import test.de.iip_ecosphere.platform.support.aas.aas.ContactInformationsTest;
 
 /**
  * Sets up the {@link ContactInformationsTest} for BaSyx. You will find the persisted AAS in the {@code output} folder.

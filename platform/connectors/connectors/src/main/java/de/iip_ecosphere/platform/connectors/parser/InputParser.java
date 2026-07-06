@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
 
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.function.IOConsumer;
 import de.iip_ecosphere.platform.transport.serialization.IipEnum;
 import de.iip_ecosphere.platform.transport.serialization.QualifiedElement;

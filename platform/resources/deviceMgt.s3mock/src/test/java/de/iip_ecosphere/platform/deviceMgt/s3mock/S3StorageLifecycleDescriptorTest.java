@@ -20,9 +20,9 @@ import org.junit.Test;
 import de.iip_ecosphere.platform.deviceMgt.DeviceMgtSetup;
 import de.iip_ecosphere.platform.deviceMgt.storage.StorageFactory;
 import de.iip_ecosphere.platform.deviceMgt.storage.StorageServerSetup;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.LifecycleDescriptor;
-import de.iip_ecosphere.platform.support.NetUtils;
+import de.iip_ecosphere.platform.support.aas.LifecycleDescriptor;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
 import de.iip_ecosphere.platform.support.jsl.ServiceLoaderUtils;
 import org.junit.Assert;
 

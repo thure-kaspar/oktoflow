@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.deviceMgt;
 
-import de.iip_ecosphere.platform.support.aas.*;
+import de.iip_ecosphere.platform.support.aas.aas.*;
 import de.iip_ecosphere.platform.support.iip_aas.AasContributor;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.json.JsonResultWrapper;

@@ -5,9 +5,9 @@ import java.io.IOException;
 import org.eclipse.basyx.aas.metamodel.map.descriptor.SubmodelDescriptor;
 import org.eclipse.basyx.submodel.restapi.SubmodelProvider;
 
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasServer;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasServer;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
 
 /**
  * Basic implementation of the the {@link AasServer} interface based on a {@link DeploymentSpec}.

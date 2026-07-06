@@ -36,8 +36,8 @@ import org.xml.sax.SAXException;
 
 import de.iip_ecosphere.platform.support.ExtensionBasedFileFormat;
 import de.iip_ecosphere.platform.support.FileFormat;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
 import de.iip_ecosphere.platform.support.aas.basyx.AbstractAas;
 import de.iip_ecosphere.platform.support.aas.basyx.AbstractSubmodel;
 import de.iip_ecosphere.platform.support.logging.Logger;

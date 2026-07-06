@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.support.aas.basyx2;
 
-import de.iip_ecosphere.platform.support.aas.Reference;
+import de.iip_ecosphere.platform.support.aas.aas.Reference;
 
 /**
  * Implements a BaSyx reference value wrapper.

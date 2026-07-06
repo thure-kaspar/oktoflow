@@ -10,14 +10,15 @@
  ********************************************************************************/
 package test.de.iip_ecosphere.platform.support.aas.basyx2.plugintest;
 
+import static test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin.*;
+
 import org.junit.runner.RunWith;
 
-import de.iip_ecosphere.platform.support.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
 import de.iip_ecosphere.platform.support.plugins.CurrentClassloaderPluginSetupDescriptor;
 import de.iip_ecosphere.platform.support.plugins.PluginManager;
 import junit.framework.TestSuite;
-import test.de.iip_ecosphere.platform.support.TestUtils;
-import static test.de.iip_ecosphere.platform.support.aas.TestWithPlugin.*;
+import test.de.iip_ecosphere.platform.support.aas.TestUtils;
 
 /**
  * Defines the tests to be executed.

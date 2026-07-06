@@ -20,7 +20,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Stack;
 
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.function.IOConsumer;
 import de.iip_ecosphere.platform.support.json.Json;
 import de.iip_ecosphere.platform.support.json.JsonGenerator;

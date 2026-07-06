@@ -27,7 +27,7 @@ import java.util.stream.Stream;
 import de.iip_ecosphere.platform.configuration.cfg.StatusCache;
 import de.iip_ecosphere.platform.configuration.easyProducer.ConfigurationLifecycleDescriptor.ExecutionMode;
 import de.iip_ecosphere.platform.configuration.easyProducer.ivml.IvmlUtils;
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.iip_ecosphere.platform.support.collector.Collector;
 import de.iip_ecosphere.platform.support.identities.YamlIdentityFile;
 import de.iip_ecosphere.platform.support.identities.YamlIdentityStore;

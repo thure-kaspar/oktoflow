@@ -12,12 +12,12 @@
 
 package de.iip_ecosphere.platform.support.aas.basyx2.server;
 
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.AasFactory.AbstractServerFactoryDescriptor;
-import de.iip_ecosphere.platform.support.aas.AasServerFactoryDescriptor;
-import de.iip_ecosphere.platform.support.aas.DeploymentRecipe;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AasServerFactoryDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.DeploymentRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory.AbstractServerFactoryDescriptor;
 import de.iip_ecosphere.platform.support.aas.basyx2.common.PluginId;
 
 /**

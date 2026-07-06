@@ -28,7 +28,7 @@ import au.com.jcloud.lxd.model.Container;
 import au.com.jcloud.lxd.service.ILxdService;
 import de.iip_ecosphere.platform.ecsRuntime.EcsFactory;
 import de.iip_ecosphere.platform.ecsRuntime.lxc.LxcContainerManager;
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase.NotificationMode;
 

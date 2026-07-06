@@ -23,9 +23,9 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 import de.iip_ecosphere.platform.services.environment.YamlService;
-import de.iip_ecosphere.platform.support.IOUtils;
-import de.iip_ecosphere.platform.support.NetUtils;
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.IOUtils;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 import de.iip_ecosphere.platform.support.json.Json;
 import de.iip_ecosphere.platform.services.environment.AbstractRestProcessService;
 import de.iip_ecosphere.platform.services.environment.ServiceState;

@@ -32,7 +32,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.web.SecurityFilterChain;
 
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
 import de.iip_ecosphere.platform.support.aas.basyx2.server.apps.common.BaSyxNames;
 import de.iip_ecosphere.platform.support.aas.basyx2.server.apps.security.RbacUtils;
 

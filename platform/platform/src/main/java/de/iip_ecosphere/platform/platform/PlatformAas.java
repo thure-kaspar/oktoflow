@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.platform;
 
-import static de.iip_ecosphere.platform.support.aas.AasUtils.fixId;
+import static de.iip_ecosphere.platform.support.aas.aas.AasUtils.fixId;
 
 import java.io.File;
 import java.io.IOException;
@@ -27,20 +27,20 @@ import de.iip_ecosphere.platform.platform.ArtifactsManager.ArtifactKind;
 import de.iip_ecosphere.platform.services.ServiceManager;
 import de.iip_ecosphere.platform.services.environment.services.TransportConverter;
 import de.iip_ecosphere.platform.services.environment.services.TransportConverterFactory;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.TaskRegistry;
-import de.iip_ecosphere.platform.support.TaskRegistry.TaskData;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection.SubmodelElementCollectionBuilder;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementList.SubmodelElementListBuilder;
-import de.iip_ecosphere.platform.support.aas.InvocablesCreator;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
-import de.iip_ecosphere.platform.support.aas.Type;
-import de.iip_ecosphere.platform.support.aas.AasUtils;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasUtils;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.InvocablesCreator;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection.SubmodelElementCollectionBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementList.SubmodelElementListBuilder;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.TaskRegistry;
+import de.iip_ecosphere.platform.support.boot.TaskRegistry.TaskData;
 import de.iip_ecosphere.platform.support.iip_aas.AasContributor;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;

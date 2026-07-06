@@ -12,9 +12,9 @@
 
 package de.iip_ecosphere.platform.deviceMgt.registry;
 
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
-
 import java.util.Set;
+
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
 
 /**
  * A DeviceRegistryClient is used for easy access to the DeviceRegistry.

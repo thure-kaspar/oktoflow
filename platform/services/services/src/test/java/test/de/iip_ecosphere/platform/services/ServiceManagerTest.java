@@ -38,7 +38,7 @@ import de.iip_ecosphere.platform.services.ServiceManager;
 import de.iip_ecosphere.platform.services.TypedDataConnectorDescriptor;
 import de.iip_ecosphere.platform.services.environment.ServiceState;
 import de.iip_ecosphere.platform.services.environment.switching.ServiceBase;
-import de.iip_ecosphere.platform.support.CollectionUtils;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase.NotificationMode;
 import test.de.iip_ecosphere.platform.transport.TestWithQpid;

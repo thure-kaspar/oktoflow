@@ -12,7 +12,7 @@ package test.de.iip_ecosphere.platform.test.mqtt.hivemq;
 
 import java.io.File;
 
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 /**
  * A simple embedded HiveMQ/MQTT TLS test server for testing/experiments. This class requires Java 11.

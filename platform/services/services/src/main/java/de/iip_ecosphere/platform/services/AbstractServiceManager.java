@@ -28,8 +28,8 @@ import de.iip_ecosphere.platform.services.environment.ServiceKind;
 import de.iip_ecosphere.platform.services.environment.ServiceState;
 import de.iip_ecosphere.platform.services.environment.ServiceStub;
 import de.iip_ecosphere.platform.services.environment.switching.ServiceBase;
-import de.iip_ecosphere.platform.support.CollectionUtils;
 import de.iip_ecosphere.platform.support.setup.AbstractSetup;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

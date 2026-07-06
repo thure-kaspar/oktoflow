@@ -21,13 +21,13 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import de.iip_ecosphere.platform.support.NetUtils;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.aas.JsonPayloadCodec;
-import de.iip_ecosphere.platform.support.aas.OperationsProvider;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.AasComponent;
+import de.iip_ecosphere.platform.support.aas.aas.JsonPayloadCodec;
+import de.iip_ecosphere.platform.support.aas.aas.OperationsProvider;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.AasComponent;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
+import de.iip_ecosphere.platform.support.boot.Server;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

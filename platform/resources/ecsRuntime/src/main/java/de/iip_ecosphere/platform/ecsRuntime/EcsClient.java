@@ -15,7 +15,7 @@ package de.iip_ecosphere.platform.ecsRuntime;
 import java.net.URI;
 import java.util.concurrent.ExecutionException;
 
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
 
 /**
  * ECS client operations interface.

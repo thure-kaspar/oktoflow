@@ -23,7 +23,7 @@ import org.junit.Test;
 
 import de.iip_ecosphere.platform.configuration.easyProducer.EasySetup;
 import de.iip_ecosphere.platform.configuration.easyProducer.PlatformInstantiatorExecutor;
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 
 /**
  * Tests the SimpleMesh model.

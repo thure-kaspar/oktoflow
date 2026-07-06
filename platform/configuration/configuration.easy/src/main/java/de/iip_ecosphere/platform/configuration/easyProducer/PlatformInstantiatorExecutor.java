@@ -29,10 +29,10 @@ import java.util.StringTokenizer;
 import java.util.concurrent.ExecutionException;
 import java.util.function.Consumer;
 
-import de.iip_ecosphere.platform.support.IOUtils;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.JavaUtils;
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.IOUtils;
+import de.iip_ecosphere.platform.support.boot.JavaUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.iip_ecosphere.platform.support.plugins.StreamGobbler;

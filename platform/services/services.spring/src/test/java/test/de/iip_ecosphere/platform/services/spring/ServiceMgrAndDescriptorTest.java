@@ -40,7 +40,7 @@ import de.iip_ecosphere.platform.services.spring.SpringCloudArtifactDescriptor;
 import de.iip_ecosphere.platform.services.spring.SpringCloudServiceDescriptor;
 import de.iip_ecosphere.platform.services.spring.SpringCloudServiceManager;
 import de.iip_ecosphere.platform.services.spring.yaml.YamlArtifact;
-import de.iip_ecosphere.platform.support.CollectionUtils;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
 import de.iip_ecosphere.platform.support.setup.CmdLine;
 
 /**

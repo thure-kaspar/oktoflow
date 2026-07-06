@@ -20,7 +20,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import de.iip_ecosphere.platform.configuration.easyProducer.opcua.data.*;
-import de.iip_ecosphere.platform.support.StringUtils;
+import de.iip_ecosphere.platform.support.boot.StringUtils;
 
 /**
  * Denotes the OPC UA element types.

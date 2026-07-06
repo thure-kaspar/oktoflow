@@ -13,9 +13,9 @@
 package de.iip_ecosphere.platform.ecsRuntime.ssh;
 
 import de.iip_ecosphere.platform.deviceMgt.Credentials;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.iip_ecosphere.platform.support.ssh.Ssh;
 import de.iip_ecosphere.platform.support.ssh.Ssh.SshServer;

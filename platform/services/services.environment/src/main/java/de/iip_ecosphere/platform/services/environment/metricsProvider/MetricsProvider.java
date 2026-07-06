@@ -31,9 +31,11 @@ import de.iip_ecosphere.platform.services.environment.UpdatingMonitoringService;
 import de.iip_ecosphere.platform.services.environment.metricsProvider.metricsAas.MetricsAasConstructor
     .PushMeterPredicate;
 import de.iip_ecosphere.platform.services.environment.switching.ServiceBase;
-import de.iip_ecosphere.platform.support.AtomicDouble;
-import de.iip_ecosphere.platform.support.aas.ElementsAccess;
-import de.iip_ecosphere.platform.support.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.ElementsAccess;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.metrics.SystemMetrics;
+import de.iip_ecosphere.platform.support.aas.metrics.SystemMetricsFactory;
+import de.iip_ecosphere.platform.support.boot.AtomicDouble;
 import de.iip_ecosphere.platform.support.json.JsonArray;
 import de.iip_ecosphere.platform.support.json.JsonObject;
 import de.iip_ecosphere.platform.support.json.JsonValue;
@@ -48,8 +50,6 @@ import de.iip_ecosphere.platform.support.metrics.MeterFilter;
 import de.iip_ecosphere.platform.support.metrics.MeterFilter.MeterFilterReply;
 import de.iip_ecosphere.platform.support.metrics.MeterRegistry;
 import de.iip_ecosphere.platform.support.metrics.MetricsFactory;
-import de.iip_ecosphere.platform.support.metrics.SystemMetrics;
-import de.iip_ecosphere.platform.support.metrics.SystemMetricsFactory;
 import de.iip_ecosphere.platform.support.metrics.Tag;
 import de.iip_ecosphere.platform.support.metrics.Timer;
 

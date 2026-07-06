@@ -27,15 +27,15 @@ import org.eclipse.basyx.submodel.metamodel.map.submodelelement.dataelement.prop
 import org.eclipse.basyx.submodel.metamodel.map.submodelelement.dataelement.property.valuetype.ValueType;
 import org.eclipse.basyx.submodel.metamodel.map.submodelelement.operation.OperationVariable;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.RbacAction;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.Role;
-import de.iip_ecosphere.platform.support.aas.Invokable;
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.Operation;
-import de.iip_ecosphere.platform.support.aas.Property.PropertyBuilder;
-import de.iip_ecosphere.platform.support.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.Invokable;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.Operation;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.RbacAction;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.Role;
+import de.iip_ecosphere.platform.support.aas.aas.Property.PropertyBuilder;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

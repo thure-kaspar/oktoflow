@@ -42,8 +42,8 @@ import org.apache.commons.text.StringEscapeUtils;
 import org.apache.commons.validator.routines.InetAddressValidator;
 import org.joda.time.DateTime;
 
-import de.iip_ecosphere.platform.support.TimeUtils;
-import de.iip_ecosphere.platform.support.TimeUtils.AbstractDateConverter;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils.AbstractDateConverter;
 import de.iip_ecosphere.platform.support.commons.FileAlterationListener;
 import de.iip_ecosphere.platform.support.commons.FileAlterationMonitor;
 import de.iip_ecosphere.platform.support.commons.FileAlterationObserver;

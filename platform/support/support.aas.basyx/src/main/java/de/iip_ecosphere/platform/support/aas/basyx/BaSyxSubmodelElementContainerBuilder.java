@@ -12,28 +12,27 @@
 
 package de.iip_ecosphere.platform.support.aas.basyx;
 
-import de.iip_ecosphere.platform.support.Builder;
-import de.iip_ecosphere.platform.support.aas.Operation.OperationBuilder;
-import de.iip_ecosphere.platform.support.aas.Property.PropertyBuilder;
-import de.iip_ecosphere.platform.support.aas.Range.RangeBuilder;
-import de.iip_ecosphere.platform.support.aas.ReferenceElement.ReferenceElementBuilder;
-
 import java.util.Arrays;
 
 import org.eclipse.basyx.submodel.metamodel.api.ISubmodel;
 
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.BlobDataElement.BlobDataElementBuilder;
-import de.iip_ecosphere.platform.support.aas.DeferredBuilder;
-import de.iip_ecosphere.platform.support.aas.Entity.EntityBuilder;
-import de.iip_ecosphere.platform.support.aas.Entity.EntityType;
-import de.iip_ecosphere.platform.support.aas.FileDataElement.FileDataElementBuilder;
-import de.iip_ecosphere.platform.support.aas.MultiLanguageProperty.MultiLanguagePropertyBuilder;
-import de.iip_ecosphere.platform.support.aas.Reference;
-import de.iip_ecosphere.platform.support.aas.SubmodelElement;
-import de.iip_ecosphere.platform.support.aas.RelationshipElement.RelationshipElementBuilder;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementContainerBuilder;
-import de.iip_ecosphere.platform.support.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.DeferredBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Reference;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementContainerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.BlobDataElement.BlobDataElementBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Entity.EntityBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Entity.EntityType;
+import de.iip_ecosphere.platform.support.aas.aas.FileDataElement.FileDataElementBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.MultiLanguageProperty.MultiLanguagePropertyBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Operation.OperationBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Property.PropertyBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Range.RangeBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.ReferenceElement.ReferenceElementBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.RelationshipElement.RelationshipElementBuilder;
+import de.iip_ecosphere.platform.support.boot.Builder;
 
 /**
  * Basic implementation for a container-based model element. Subclasses must call {@link #buildMyDeferred()} in an 

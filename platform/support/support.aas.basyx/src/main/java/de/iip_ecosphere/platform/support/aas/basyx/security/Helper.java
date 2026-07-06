@@ -27,13 +27,13 @@ import org.springframework.security.web.FilterChainProxy;
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 import org.springframework.security.web.util.matcher.AnyRequestMatcher;
 
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.OAuth2Setup;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.RbacAction;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.RbacAasComponent;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.AasComponent;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.ComponentSetup;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.OAuth2Setup;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.RbacAasComponent;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.RbacAction;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.AasComponent;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.ComponentSetup;
 import de.iip_ecosphere.platform.support.logging.Logger;
 
 /**
@@ -137,12 +137,12 @@ public class Helper {
             AuthenticationDescriptor auth = setup.getAuthentication();
             if (AuthenticationDescriptor.isEnabledOnServer(auth) && auth.getAccessRules() != null) {
                 RbacRuleSet rbacSet = new RbacRuleSet();
-                for (de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.RbacRule r 
+                for (de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.RbacRule r 
                     : auth.getAccessRules()) {
                     for (RbacAction action : r.getActions()) {
                         String path = null;
                         if (r.getPath() != null) {
-                            path = r.getPath().replaceAll(de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor
+                            path = r.getPath().replaceAll(de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor
                                 .RbacRule.PATH_SEPARATOR, ".");
                         }
                         String aasId = null;

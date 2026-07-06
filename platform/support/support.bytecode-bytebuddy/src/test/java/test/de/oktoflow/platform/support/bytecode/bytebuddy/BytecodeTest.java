@@ -2,8 +2,8 @@ package test.de.oktoflow.platform.support.bytecode.bytebuddy;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.ConfiguredName;
-import de.iip_ecosphere.platform.support.IgnoreProperties;
+import de.iip_ecosphere.platform.support.boot.ConfiguredName;
+import de.iip_ecosphere.platform.support.boot.IgnoreProperties;
 import de.iip_ecosphere.platform.support.bytecode.Bytecode;
 import de.iip_ecosphere.platform.support.bytecode.Bytecode.ClassBuilder;
 

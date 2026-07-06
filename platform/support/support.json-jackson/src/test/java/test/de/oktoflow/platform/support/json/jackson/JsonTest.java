@@ -20,8 +20,8 @@ import java.util.Map;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.Filter;
-import de.iip_ecosphere.platform.support.IgnoreProperties;
+import de.iip_ecosphere.platform.support.boot.Filter;
+import de.iip_ecosphere.platform.support.boot.IgnoreProperties;
 import de.iip_ecosphere.platform.support.json.Json;
 import de.iip_ecosphere.platform.support.json.JsonArray;
 import de.iip_ecosphere.platform.support.json.JsonGenerator;

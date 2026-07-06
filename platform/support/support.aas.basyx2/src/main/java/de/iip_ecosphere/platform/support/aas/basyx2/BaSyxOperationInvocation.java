@@ -16,7 +16,7 @@ import org.eclipse.digitaltwin.aas4j.v3.model.OperationVariable;
 import org.eclipse.digitaltwin.basyx.core.exceptions.ElementDoesNotExistException;
 import org.eclipse.digitaltwin.basyx.submodelrepository.client.ConnectedSubmodelRepository;
 
-import de.iip_ecosphere.platform.support.aas.Invokable.OperationInvocation;
+import de.iip_ecosphere.platform.support.aas.aas.Invokable.OperationInvocation;
 
 /**
  * Represents an implementation-specific submodel operation invocation.

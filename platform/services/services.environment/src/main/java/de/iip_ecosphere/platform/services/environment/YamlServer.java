@@ -12,8 +12,8 @@
 
 package de.iip_ecosphere.platform.services.environment;
 
-import de.iip_ecosphere.platform.support.Server;
 import de.iip_ecosphere.platform.support.Version;
+import de.iip_ecosphere.platform.support.boot.Server;
 
 /**
  * Server process specification of servers to be started/stopped with an application.

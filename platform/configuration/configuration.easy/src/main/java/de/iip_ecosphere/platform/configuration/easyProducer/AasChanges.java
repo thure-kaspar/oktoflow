@@ -17,9 +17,9 @@ import de.iip_ecosphere.platform.configuration.easyProducer.serviceMesh.ServiceM
 import de.iip_ecosphere.platform.configuration.cfg.ConfigurationChangeType;
 import de.iip_ecosphere.platform.configuration.easyProducer.ivml.AasChange;
 import de.iip_ecosphere.platform.configuration.easyProducer.ivml.AbstractIvmlModifier.ConfigurationChangeListener;
-import de.iip_ecosphere.platform.support.aas.InvocablesCreator;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.InvocablesCreator;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
 import de.iip_ecosphere.platform.support.json.JsonResultWrapper.OperationCompletedListener;
 import net.ssehub.easy.varModel.confModel.IDecisionVariable;
 

@@ -15,8 +15,8 @@ package de.iip_ecosphere.platform.support.ssh;
 import java.io.File;
 import java.io.IOException;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.plugins.PluginManager;
 
 /**

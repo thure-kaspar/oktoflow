@@ -12,10 +12,6 @@
 
 package de.iip_ecosphere.platform.ecsRuntime.deviceAas;
 
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.Registry;
-
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -23,6 +19,9 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.Registry;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.Id;
 import de.iip_ecosphere.platform.support.net.UriResolver;

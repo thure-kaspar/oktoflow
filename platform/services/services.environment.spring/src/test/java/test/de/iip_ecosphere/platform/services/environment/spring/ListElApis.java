@@ -16,8 +16,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.ZipUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.ZipUtils;
 
 /**
  * Lists available javax.el APIs.

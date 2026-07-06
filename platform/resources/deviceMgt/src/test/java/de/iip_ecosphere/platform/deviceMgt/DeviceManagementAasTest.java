@@ -24,12 +24,12 @@ import de.iip_ecosphere.platform.support.iip_aas.AasContributor;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
 import de.iip_ecosphere.platform.support.jsl.ServiceLoaderUtils;
 import de.iip_ecosphere.platform.support.json.JsonUtils;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 import org.junit.*;
 
-import de.iip_ecosphere.platform.support.aas.*;
-import de.iip_ecosphere.platform.support.Server;
+import de.iip_ecosphere.platform.support.aas.aas.*;
+import de.iip_ecosphere.platform.support.boot.Server;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry.AasSetup;
 import org.junit.runner.RunWith;

@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.support.iip_aas;
 
-import de.iip_ecosphere.platform.support.aas.IdentifierType;
+import de.iip_ecosphere.platform.support.aas.aas.IdentifierType;
 
 /**
  * Pre-defined IRDI for unit/concept identification in format for the AAS abstraction based on {@link IdentifierType} 

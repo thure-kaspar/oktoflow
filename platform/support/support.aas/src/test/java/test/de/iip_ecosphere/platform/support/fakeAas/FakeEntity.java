@@ -12,33 +12,32 @@
 
 package test.de.iip_ecosphere.platform.support.fakeAas;
 
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-
 import java.util.HashMap;
 import java.util.Map;
 
-import de.iip_ecosphere.platform.support.Builder;
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.RbacAction;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.Role;
-import de.iip_ecosphere.platform.support.aas.DataElement;
-import de.iip_ecosphere.platform.support.aas.DeferredBuilder;
-import de.iip_ecosphere.platform.support.aas.Entity;
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.Operation;
-import de.iip_ecosphere.platform.support.aas.Property;
-import de.iip_ecosphere.platform.support.aas.Reference;
-import de.iip_ecosphere.platform.support.aas.ReferenceElement;
-import de.iip_ecosphere.platform.support.aas.RelationshipElement;
 import test.de.iip_ecosphere.platform.support.fakeAas.FakeSubmodelElementCollection
     .FakeSubmodelElementCollectionBuilder;
 import test.de.iip_ecosphere.platform.support.fakeAas.FakeSubmodelElementList.FakeSubmodelElementListBuilder;
-import de.iip_ecosphere.platform.support.aas.SubmodelElement;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementContainerBuilder;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementList;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementList.SubmodelElementListBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.DataElement;
+import de.iip_ecosphere.platform.support.aas.aas.DeferredBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Entity;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.Operation;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.Reference;
+import de.iip_ecosphere.platform.support.aas.aas.ReferenceElement;
+import de.iip_ecosphere.platform.support.aas.aas.RelationshipElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementContainerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementList;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.RbacAction;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.Role;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementList.SubmodelElementListBuilder;
+import de.iip_ecosphere.platform.support.boot.Builder;
 
 /**
  * Implements a fake entity.

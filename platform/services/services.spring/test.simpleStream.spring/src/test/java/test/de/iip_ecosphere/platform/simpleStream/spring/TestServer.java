@@ -14,8 +14,8 @@ package test.de.iip_ecosphere.platform.simpleStream.spring;
 
 import java.util.Arrays;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 
 /**
  * Test server that just emits some lines and does noting. For testing platform-managed servers.

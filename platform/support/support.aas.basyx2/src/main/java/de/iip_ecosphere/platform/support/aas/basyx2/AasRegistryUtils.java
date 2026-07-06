@@ -26,9 +26,9 @@ import org.eclipse.digitaltwin.basyx.aasregistry.client.model.Endpoint;
 import org.eclipse.digitaltwin.basyx.aasregistry.client.model.ProtocolInformation;
 import org.eclipse.digitaltwin.basyx.aasrepository.client.ConnectedAasRepository;
 
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.AasComponent;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.AasComponent;
 import de.iip_ecosphere.platform.support.aas.basyx2.common.Tools.ClientSupplier;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.iip_ecosphere.platform.support.net.HttpClientHelper;

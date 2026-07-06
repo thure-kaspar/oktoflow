@@ -1,7 +1,7 @@
 package de.iip_ecosphere.platform.support.iip_aas.config;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 /**
  * A proxy for {@link ServerAddress} with a protocol, as we do not want to have setters there.

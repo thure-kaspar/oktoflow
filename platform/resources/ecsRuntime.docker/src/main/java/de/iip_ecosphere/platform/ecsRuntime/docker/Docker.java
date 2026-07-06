@@ -12,7 +12,7 @@
 package de.iip_ecosphere.platform.ecsRuntime.docker;
 
 import de.iip_ecosphere.platform.ecsRuntime.EcsSetup.AbstractManagerSetup;
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 
 /**
  * Implements the docker specific configuration.

@@ -14,8 +14,8 @@ package test.de.iip_ecosphere.platform.transport;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.transport.connectors.TransportParameter;
 import de.iip_ecosphere.platform.transport.connectors.TransportParameter.CloseAction;
 import de.iip_ecosphere.platform.transport.connectors.basics.MqttQoS;

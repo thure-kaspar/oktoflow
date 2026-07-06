@@ -14,10 +14,10 @@ package de.iip_ecosphere.platform.support.aas.basyx2.server;
 
 import java.util.List;
 
-import de.iip_ecosphere.platform.support.aas.AasServer;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe.LocalPersistenceType;
+import de.iip_ecosphere.platform.support.aas.aas.AasServer;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe.LocalPersistenceType;
 import de.iip_ecosphere.platform.support.aas.basyx2.server.BaSyxAbstractAasServer.ServerType;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
 import de.iip_ecosphere.platform.support.function.IORunnable;
 
 /**

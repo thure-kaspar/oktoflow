@@ -17,7 +17,7 @@ import de.iip_ecosphere.platform.deviceMgt.DeviceRemoteManagementOperations;
 import de.iip_ecosphere.platform.deviceMgt.ecs.EcsAasClient;
 import de.iip_ecosphere.platform.deviceMgt.registry.DeviceRegistryAas;
 import de.iip_ecosphere.platform.deviceMgt.registry.DeviceRegistryAasClient;
-import de.iip_ecosphere.platform.support.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
 
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;

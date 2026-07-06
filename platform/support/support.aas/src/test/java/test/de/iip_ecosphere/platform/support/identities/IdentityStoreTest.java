@@ -14,7 +14,7 @@ package test.de.iip_ecosphere.platform.support.identities;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.CollectionUtils;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
 import de.iip_ecosphere.platform.support.identities.IdentityStore;
 import de.iip_ecosphere.platform.support.identities.IdentityToken;
 import de.iip_ecosphere.platform.support.identities.IdentityToken.TokenType;

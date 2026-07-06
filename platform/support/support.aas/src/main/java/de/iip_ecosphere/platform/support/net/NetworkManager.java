@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.support.net;
 
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 /**
  * Simple functions for distributed network management. The aim is to reduce the port configuration effort. Access to 

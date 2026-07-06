@@ -12,7 +12,7 @@
 
 package test.de.iip_ecosphere.platform.support.plugins;
 
-import de.iip_ecosphere.platform.support.Server;
+import de.iip_ecosphere.platform.support.boot.Server;
 import de.iip_ecosphere.platform.support.plugins.DefaultPluginDescriptor;
 
 /**

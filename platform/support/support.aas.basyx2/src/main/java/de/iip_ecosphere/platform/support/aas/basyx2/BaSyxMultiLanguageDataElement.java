@@ -19,8 +19,8 @@ import java.util.List;
 import org.eclipse.digitaltwin.aas4j.v3.model.LangStringTextType;
 import org.eclipse.digitaltwin.aas4j.v3.model.impl.DefaultLangStringTextType;
 
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.MultiLanguageDataElement;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.MultiLanguageDataElement;
 
 /**
  * Wraps a BaSyx multi-language data element.
@@ -62,7 +62,7 @@ public class BaSyxMultiLanguageDataElement extends BaSyxDataElement<
             = new org.eclipse.digitaltwin.aas4j.v3.model.impl.DefaultMultiLanguageProperty();
         result.setIdShort(idShort);
         List<LangStringTextType> ls = new ArrayList<>();
-        for (de.iip_ecosphere.platform.support.aas.LangString e : texts) {
+        for (de.iip_ecosphere.platform.support.aas.aas.LangString e : texts) {
             LangStringTextType t = new DefaultLangStringTextType();
             t.setLanguage(e.getLanguage());
             t.setText(e.getDescription());

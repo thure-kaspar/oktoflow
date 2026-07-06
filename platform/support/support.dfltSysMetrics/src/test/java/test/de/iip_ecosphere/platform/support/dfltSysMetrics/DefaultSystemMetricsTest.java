@@ -15,10 +15,10 @@ package test.de.iip_ecosphere.platform.support.dfltSysMetrics;
 import org.junit.Assert;
 import org.junit.Test;
 
+import de.iip_ecosphere.platform.support.aas.metrics.SystemMetrics;
+import de.iip_ecosphere.platform.support.aas.metrics.SystemMetricsFactory;
 import de.iip_ecosphere.platform.support.dfltSysMetrics.DefaultSystemMetrics;
-import de.iip_ecosphere.platform.support.metrics.SystemMetrics;
-import de.iip_ecosphere.platform.support.metrics.SystemMetricsFactory;
-import test.de.iip_ecosphere.platform.support.SystemMetricsTest;
+import test.de.iip_ecosphere.platform.support.aas.SystemMetricsTest;
 
 /**
  * Tests {@link DefaultSystemMetrics}.

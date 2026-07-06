@@ -18,7 +18,7 @@ import java.util.Map;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
 import de.iip_ecosphere.platform.support.iip_aas.NameplateSetup;
 import de.iip_ecosphere.platform.support.iip_aas.NameplateSetup.Service;
 

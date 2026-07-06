@@ -12,8 +12,8 @@
 
 package iip.datatypes;
 
-import de.iip_ecosphere.platform.support.ConfiguredName;
-import de.iip_ecosphere.platform.support.Ignore;
+import de.iip_ecosphere.platform.support.boot.ConfiguredName;
+import de.iip_ecosphere.platform.support.boot.Ignore;
 
 /**
  * A data interface for testing.

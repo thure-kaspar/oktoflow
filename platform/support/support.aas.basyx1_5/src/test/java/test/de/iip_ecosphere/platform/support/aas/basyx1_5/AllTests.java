@@ -15,7 +15,7 @@ import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import de.iip_ecosphere.platform.support.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
 import de.iip_ecosphere.platform.support.aas.basyx1_5.BaSyxAasFactory;
 
 /**

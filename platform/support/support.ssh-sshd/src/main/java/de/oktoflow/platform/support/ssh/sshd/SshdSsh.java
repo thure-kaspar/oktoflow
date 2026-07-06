@@ -15,8 +15,8 @@ package de.oktoflow.platform.support.ssh.sshd;
 import java.io.File;
 import java.io.IOException;
 
-import de.iip_ecosphere.platform.support.OsUtils;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.iip_ecosphere.platform.support.ssh.Ssh;
 

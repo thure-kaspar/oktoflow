@@ -14,9 +14,9 @@ package de.iip_ecosphere.platform.support.iip_aas;
 
 import java.util.concurrent.ExecutionException;
 
-import de.iip_ecosphere.platform.support.aas.Operation;
-import de.iip_ecosphere.platform.support.aas.Property;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Operation;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
 
 /**
  * Basic class for submodel clients, i.e., classes that act as frontend for an (active) AAS.

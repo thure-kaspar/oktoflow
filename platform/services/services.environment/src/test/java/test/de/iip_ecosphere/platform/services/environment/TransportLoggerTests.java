@@ -18,9 +18,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 import org.junit.Test;
 
 import de.iip_ecosphere.platform.services.environment.TransportLogger;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.transport.Transport;
 import de.iip_ecosphere.platform.transport.status.ActionTypes;
 import de.iip_ecosphere.platform.transport.status.TraceRecord;

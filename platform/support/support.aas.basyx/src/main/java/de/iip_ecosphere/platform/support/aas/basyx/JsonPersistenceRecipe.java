@@ -28,8 +28,8 @@ import org.eclipse.basyx.submodel.metamodel.map.parts.ConceptDescription;
 
 import de.iip_ecosphere.platform.support.ExtensionBasedFileFormat;
 import de.iip_ecosphere.platform.support.FileFormat;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
 
 /**
  * Implements the JSON persistence recipe. Unfortunately, so far, BaSyx only supports writing non-connected AAS as far 

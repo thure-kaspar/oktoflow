@@ -27,7 +27,7 @@ import de.iip_ecosphere.platform.connectors.Connector;
 import de.iip_ecosphere.platform.connectors.ConnectorParameter;
 import de.iip_ecosphere.platform.connectors.events.ConnectorTriggerQuery;
 import de.iip_ecosphere.platform.connectors.events.EventHandlingConnector;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.identities.IdentityToken;
 import de.iip_ecosphere.platform.support.json.IOIterator;
 import de.iip_ecosphere.platform.support.resources.ResourceLoader;

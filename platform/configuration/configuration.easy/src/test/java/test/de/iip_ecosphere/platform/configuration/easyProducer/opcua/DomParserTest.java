@@ -20,7 +20,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import de.iip_ecosphere.platform.configuration.easyProducer.opcua.parser.DomParser;
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 
 /**
  * Tests {@link DomParser}.

@@ -27,15 +27,15 @@ import de.iip_ecosphere.platform.connectors.ConnectorParameter;
 import de.iip_ecosphere.platform.connectors.ConnectorRegistry;
 import de.iip_ecosphere.platform.connectors.types.ProtocolAdapter;
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.BasicSetupSpec;
-import de.iip_ecosphere.platform.support.aas.DeploymentRecipe;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.BasicSetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.DeploymentRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
 import de.iip_ecosphere.platform.support.iip_aas.AasContributor.Kind;
@@ -51,8 +51,8 @@ import de.iip_ecosphere.platform.connectors.model.ModelAccess;
 import test.de.iip_ecosphere.platform.connectors.AbstractInformationModelConnectorTest;
 import test.de.iip_ecosphere.platform.connectors.MachineCommand;
 import test.de.iip_ecosphere.platform.connectors.MachineData;
-import test.de.iip_ecosphere.platform.support.aas.AasTest;
-import test.de.iip_ecosphere.platform.support.aas.TestMachine;
+import test.de.iip_ecosphere.platform.support.aas.aas.AasTest;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestMachine;
 
 /**
  * Tests {@link AasConnector} with polling and no security.

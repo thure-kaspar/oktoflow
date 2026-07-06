@@ -5,8 +5,8 @@ import java.io.IOException;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.http.Http;
 import de.iip_ecosphere.platform.support.http.HttpClient;
 import de.iip_ecosphere.platform.support.http.HttpPost;

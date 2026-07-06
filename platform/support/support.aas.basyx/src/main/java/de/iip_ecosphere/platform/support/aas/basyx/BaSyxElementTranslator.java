@@ -29,14 +29,14 @@ import org.eclipse.basyx.submodel.metamodel.map.submodelelement.dataelement.rang
 import org.eclipse.basyx.submodel.metamodel.map.submodelelement.relationship.RelationshipElement;
 import org.eclipse.basyx.vab.exception.provider.ResourceNotFoundException;
 
-import de.iip_ecosphere.platform.support.aas.FileDataElement;
-import de.iip_ecosphere.platform.support.aas.Property;
-import de.iip_ecosphere.platform.support.aas.ReferenceElement;
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.SubmodelElement;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementContainerBuilder;
-import de.iip_ecosphere.platform.support.aas.Submodel.IteratorFunction;
+import de.iip_ecosphere.platform.support.aas.aas.FileDataElement;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.ReferenceElement;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementContainerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.IteratorFunction;
 import de.iip_ecosphere.platform.support.aas.basyx.BaSyxSubmodelElementCollection.BaSyxSubmodelElementCollectionBuilder;
 import de.iip_ecosphere.platform.support.aas.basyx.VabInvocablesCreator.Operation;
 

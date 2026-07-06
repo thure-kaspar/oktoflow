@@ -12,15 +12,15 @@
 
 package de.iip_ecosphere.platform.support.iip_aas;
 
-import static de.iip_ecosphere.platform.support.aas.AasUtils.fixId;
+import static de.iip_ecosphere.platform.support.aas.aas.AasUtils.fixId;
 
 import java.io.IOException;
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;
 import java.util.Optional;
 
-import de.iip_ecosphere.platform.support.LifecycleHandler;
 import de.iip_ecosphere.platform.support.setup.CmdLine;
+import de.iip_ecosphere.platform.support.aas.LifecycleHandler;
 import de.iip_ecosphere.platform.support.jsl.ServiceLoaderUtils;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 

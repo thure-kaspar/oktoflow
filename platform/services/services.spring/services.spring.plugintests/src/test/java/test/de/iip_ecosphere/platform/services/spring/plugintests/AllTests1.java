@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 
 import de.iip_ecosphere.platform.services.ServiceFactory;
 import junit.framework.TestSuite;
-import test.de.iip_ecosphere.platform.support.TestUtils;
+import test.de.iip_ecosphere.platform.support.aas.TestUtils;
 
 /**
  * Defines the tests to be executed independently.

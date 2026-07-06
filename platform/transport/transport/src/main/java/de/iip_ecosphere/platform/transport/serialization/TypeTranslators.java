@@ -16,8 +16,8 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Base64;
 
-import de.iip_ecosphere.platform.support.ClassLoaderUtils;
-import de.iip_ecosphere.platform.support.StringUtils;
+import de.iip_ecosphere.platform.support.boot.ClassLoaderUtils;
+import de.iip_ecosphere.platform.support.boot.StringUtils;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

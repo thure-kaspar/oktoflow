@@ -17,8 +17,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.iip_ecosphere.platform.support.plugins.FolderClasspathPluginSetupDescriptor;
 import de.iip_ecosphere.platform.support.plugins.Plugin;
 import de.iip_ecosphere.platform.support.plugins.PluginManager;

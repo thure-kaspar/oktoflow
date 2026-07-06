@@ -19,7 +19,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.NetUtils;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 

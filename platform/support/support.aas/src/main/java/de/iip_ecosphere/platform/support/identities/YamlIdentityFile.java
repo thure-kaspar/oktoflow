@@ -17,7 +17,7 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.iip_ecosphere.platform.support.identities.IdentityToken.TokenType;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.iip_ecosphere.platform.support.yaml.Yaml;

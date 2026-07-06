@@ -17,9 +17,8 @@ import java.io.Serializable;
 import java.util.concurrent.ExecutionException;
 import java.util.function.Function;
 
-import de.iip_ecosphere.platform.support.Include;
-
-import de.iip_ecosphere.platform.support.TaskRegistry;
+import de.iip_ecosphere.platform.support.boot.Include;
+import de.iip_ecosphere.platform.support.boot.TaskRegistry;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

@@ -12,14 +12,14 @@
 
 package test.de.iip_ecosphere.platform.support.aas.basyx;
 
-import de.iip_ecosphere.platform.support.Schema;
+import de.iip_ecosphere.platform.support.boot.Schema;
 
 /**
  * Tests deployment scenarios.
  * 
  * @author Holger Eichelberger, SSE
  */
-public class BaSyxDeploymentTest extends test.de.iip_ecosphere.platform.support.aas.DeploymentTest {
+public class BaSyxDeploymentTest extends test.de.iip_ecosphere.platform.support.aas.aas.DeploymentTest {
 
     @Override
     protected Schema adaptRegistrySchema(Schema schema) {

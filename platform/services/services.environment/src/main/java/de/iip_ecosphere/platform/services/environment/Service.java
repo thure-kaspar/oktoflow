@@ -20,8 +20,8 @@ import java.util.concurrent.ExecutionException;
 import java.util.function.Supplier;
 
 import de.iip_ecosphere.platform.services.environment.switching.ServiceBase;
-import de.iip_ecosphere.platform.support.ServerAddress;
 import de.iip_ecosphere.platform.support.Version;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

@@ -22,8 +22,8 @@ import org.junit.Test;
 
 import de.iip_ecosphere.platform.monitoring.MonitoringReceiver;
 import de.iip_ecosphere.platform.monitoring.MonitoringSetup;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.iip_aas.Id;
 import de.iip_ecosphere.platform.support.json.JsonObject;
 import de.iip_ecosphere.platform.support.metrics.Meter;

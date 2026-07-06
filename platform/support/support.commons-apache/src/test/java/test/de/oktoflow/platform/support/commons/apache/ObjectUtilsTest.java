@@ -14,7 +14,8 @@ package test.de.oktoflow.platform.support.commons.apache;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.ObjectUtils;
+import de.iip_ecosphere.platform.support.boot.ObjectUtils;
+
 import org.junit.Assert;
 
 /**

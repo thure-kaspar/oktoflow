@@ -1,12 +1,12 @@
 package de.iip_ecosphere.platform.support.aas.types.contactInformations;
 
-import static de.iip_ecosphere.platform.support.aas.IdentifierType.*;
+import static de.iip_ecosphere.platform.support.aas.aas.IdentifierType.*;
 import static de.iip_ecosphere.platform.support.aas.types.common.Utils.*;
 
-import de.iip_ecosphere.platform.support.Builder;
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-import de.iip_ecosphere.platform.support.aas.*;
+import de.iip_ecosphere.platform.support.aas.aas.*;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
 import de.iip_ecosphere.platform.support.aas.types.common.*;
+import de.iip_ecosphere.platform.support.boot.Builder;
 
 /**
 * Builder support for the Submodel "ContactInformations" is the collection for various contact information.

@@ -23,8 +23,8 @@ import java.util.function.Consumer;
 import java.util.regex.Pattern;
 
 import de.iip_ecosphere.platform.configuration.easyProducer.aas.AasImports.Import;
-import de.iip_ecosphere.platform.support.FileUtils;
 import de.iip_ecosphere.platform.support.Version;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 

@@ -21,11 +21,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.IOUtils;
-import de.iip_ecosphere.platform.support.ZipUtils;
 import de.iip_ecosphere.platform.support.resources.ResourceLoader;
 import de.iip_ecosphere.platform.support.resources.ResourceResolver;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.IOUtils;
+import de.iip_ecosphere.platform.support.boot.ZipUtils;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**
@@ -70,7 +70,7 @@ public class ResourceClasspathPluginSetupDescriptor extends URLPluginSetupDescri
         if (null != in && resourceName.endsWith(".zip")) {
             try {
                 ZipUtils.extractZip(in, dir.toPath());
-                de.iip_ecosphere.platform.support.FileUtils.closeQuietly(in);
+                de.iip_ecosphere.platform.support.boot.FileUtils.closeQuietly(in);
                 in = new FileInputStream(new File(dir, "classpath"));
                 zipExtracted = true;
             } catch (IOException e) {

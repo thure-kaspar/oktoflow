@@ -1,12 +1,11 @@
 package de.iip_ecosphere.platform.support.aas.types.hierarchicalStructure;
 
-import static de.iip_ecosphere.platform.support.aas.IdentifierType.*;
+import static de.iip_ecosphere.platform.support.aas.aas.IdentifierType.*;
 import static de.iip_ecosphere.platform.support.aas.types.common.Utils.*;
 
 import java.util.concurrent.ExecutionException;
 
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.*;
+import de.iip_ecosphere.platform.support.aas.aas.*;
 import de.iip_ecosphere.platform.support.aas.types.common.*;
 
 import de.iip_ecosphere.platform.support.aas.types.hierarchicalStructure.HierarchicalStructuresBuilder.*;

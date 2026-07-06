@@ -17,6 +17,8 @@ import org.junit.Test;
 import de.iip_ecosphere.platform.support.logging.LogLevel;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
+import test.de.iip_ecosphere.platform.support.logging.LoggerFactoryTest;
+
 import org.junit.Assert;
 
 /**

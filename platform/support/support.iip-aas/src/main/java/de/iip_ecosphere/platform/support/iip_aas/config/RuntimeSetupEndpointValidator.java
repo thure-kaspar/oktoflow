@@ -16,7 +16,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.function.Function;
 
-import de.iip_ecosphere.platform.support.Schema;
+import de.iip_ecosphere.platform.support.boot.Schema;
 
 /**
  * An endpoint validator based on {@link RuntimeSetup}.

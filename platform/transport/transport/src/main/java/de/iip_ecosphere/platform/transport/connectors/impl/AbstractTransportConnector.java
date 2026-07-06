@@ -20,7 +20,7 @@ import java.util.function.Supplier;
 
 import javax.net.ssl.SSLContext;
 
-import de.iip_ecosphere.platform.support.NetUtils;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
 import de.iip_ecosphere.platform.support.identities.IdentityStore;
 import de.iip_ecosphere.platform.support.identities.IdentityToken;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;

@@ -14,7 +14,7 @@ package de.iip_ecosphere.platform.ecsRuntime;
 
 import java.util.concurrent.ExecutionException;
 
-import de.iip_ecosphere.platform.support.LifecycleDescriptor;
+import de.iip_ecosphere.platform.support.aas.LifecycleDescriptor;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

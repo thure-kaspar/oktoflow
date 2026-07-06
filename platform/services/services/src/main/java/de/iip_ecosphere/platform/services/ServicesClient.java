@@ -17,7 +17,7 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 import de.iip_ecosphere.platform.services.environment.ServiceState;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
 
 /**
  * Services client operations.

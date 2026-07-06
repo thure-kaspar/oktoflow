@@ -20,13 +20,13 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.function.Function;
 
-import de.iip_ecosphere.platform.support.aas.InvocablesCreator;
-import de.iip_ecosphere.platform.support.aas.Invokable;
 import de.iip_ecosphere.platform.support.function.IOSupplier;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasUtils;
 import de.iip_ecosphere.platform.support.Version;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasUtils;
+import de.iip_ecosphere.platform.support.aas.aas.InvocablesCreator;
+import de.iip_ecosphere.platform.support.aas.aas.Invokable;
 import de.iip_ecosphere.platform.support.json.JsonResultWrapper;
 import de.iip_ecosphere.platform.support.logging.LogLevel;
 

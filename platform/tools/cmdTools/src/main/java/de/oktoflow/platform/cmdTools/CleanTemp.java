@@ -15,7 +15,7 @@ package de.oktoflow.platform.cmdTools;
 
 import java.io.File;
 
-import de.iip_ecosphere.platform.support.FileUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 import de.iip_ecosphere.platform.support.setup.CmdLine;
 import de.oktoflow.platform.cmdTools.MavenUtils.CleanupStatistics;
 

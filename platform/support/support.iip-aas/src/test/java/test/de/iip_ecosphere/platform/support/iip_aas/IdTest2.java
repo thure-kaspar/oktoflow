@@ -15,12 +15,12 @@ package test.de.iip_ecosphere.platform.support.iip_aas;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.LifecycleHandler;
+import de.iip_ecosphere.platform.support.aas.LifecycleHandler;
 import de.iip_ecosphere.platform.support.iip_aas.HostnameIdProvider;
 import de.iip_ecosphere.platform.support.iip_aas.Id;
 import de.iip_ecosphere.platform.support.iip_aas.IdProvider;
 import de.iip_ecosphere.platform.support.iip_aas.IdProviderDescriptor;
-import test.de.iip_ecosphere.platform.support.LifecycleHandlerTest;
+import test.de.iip_ecosphere.platform.support.aas.LifecycleHandlerTest;
 
 /**
  * Tests {@code Id} with startup command line (requires a separate virtual machine).

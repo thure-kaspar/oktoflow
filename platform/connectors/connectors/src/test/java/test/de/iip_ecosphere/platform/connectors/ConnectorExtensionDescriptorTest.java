@@ -26,7 +26,7 @@ import de.iip_ecosphere.platform.connectors.types.AbstractProtocolAdapter;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase.NotificationMode;
 import de.iip_ecosphere.platform.support.jsl.ExcludeFirst;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 
 /**
  * Tests {@link ConnectorExtensionDescriptor}.

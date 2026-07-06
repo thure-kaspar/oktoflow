@@ -16,9 +16,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.MultiLanguageProperty;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.MultiLanguageProperty;
 
 /**
  * Multi-Language property representation for BaSyx.

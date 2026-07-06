@@ -14,7 +14,7 @@ package de.iip_ecosphere.platform.support.aas.basyx;
 
 import org.eclipse.basyx.submodel.metamodel.api.submodelelement.ISubmodelElement;
 
-import de.iip_ecosphere.platform.support.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElement;
 
 /**
  * Implements an abstract BaSyx sub-model element wrapper.

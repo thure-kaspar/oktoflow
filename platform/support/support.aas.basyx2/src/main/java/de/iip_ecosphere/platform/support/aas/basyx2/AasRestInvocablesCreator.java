@@ -14,8 +14,8 @@ package de.iip_ecosphere.platform.support.aas.basyx2;
 
 import org.eclipse.digitaltwin.basyx.submodelrepository.client.ConnectedSubmodelRepository;
 
-import de.iip_ecosphere.platform.support.ServerAddress;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 /**
  * implements an invocables creator for AAS-REST.

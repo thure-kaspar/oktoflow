@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.Arrays;
 
 import de.iip_ecosphere.platform.support.setup.CmdLine;
-import test.de.iip_ecosphere.platform.support.aas.AbstractAasExample;
+import test.de.iip_ecosphere.platform.support.aas.aas.AbstractAasExample;
 
 /**
  * Utility functions for example tests with BaSyx.

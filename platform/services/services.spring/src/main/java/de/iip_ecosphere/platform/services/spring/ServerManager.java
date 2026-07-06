@@ -31,11 +31,11 @@ import de.iip_ecosphere.platform.services.ServiceManager;
 import de.iip_ecosphere.platform.services.environment.ServiceState;
 import de.iip_ecosphere.platform.services.environment.spring.Starter;
 import de.iip_ecosphere.platform.services.spring.descriptor.Server;
-import de.iip_ecosphere.platform.support.CollectionUtils;
-import de.iip_ecosphere.platform.support.JavaUtils;
-import de.iip_ecosphere.platform.support.NetUtils;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
+import de.iip_ecosphere.platform.support.boot.JavaUtils;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.iip_aas.Id;
 import de.iip_ecosphere.platform.support.json.JsonUtils;
 import de.iip_ecosphere.platform.support.net.NetworkManager;
@@ -52,7 +52,7 @@ public class ServerManager {
 
     private static final String PROP_DISABLE_SERVER = "iip.services.disableServer";
     private static final Logger LOGGER = LoggerFactory.getLogger(ServerManager.class);
-    private Map<SpringCloudServiceDescriptor, de.iip_ecosphere.platform.support.Server> 
+    private Map<SpringCloudServiceDescriptor, de.iip_ecosphere.platform.support.boot.Server> 
         runningServers = new HashMap<>();
     private Supplier<NetworkManager> networkManagerSupplier;
 
@@ -70,7 +70,7 @@ public class ServerManager {
      * 
      * @author Holger Eichelberger, SSE
      */
-    private static class JvmServerProcess implements de.iip_ecosphere.platform.support.Server {
+    private static class JvmServerProcess implements de.iip_ecosphere.platform.support.boot.Server {
         
         private File home; 
         private SpringCloudArtifactDescriptor art; 
@@ -94,7 +94,7 @@ public class ServerManager {
         }
 
         @Override
-        public de.iip_ecosphere.platform.support.Server start() {
+        public de.iip_ecosphere.platform.support.boot.Server start() {
             List<String> a = new ArrayList<>();
             a.add(JavaUtils.getJavaBinaryPath("java"));
             if (server.getMemory() > 0) {
@@ -186,9 +186,9 @@ public class ServerManager {
                                     o = cls.getConstructor().newInstance();
                                 }
                             }
-                            if (o instanceof de.iip_ecosphere.platform.support.Server) {
+                            if (o instanceof de.iip_ecosphere.platform.support.boot.Server) {
                                 LOGGER.info("Starting server {} ", id);
-                                ServerWrapper sv = new ServerWrapper((de.iip_ecosphere.platform.support.Server) o);
+                                ServerWrapper sv = new ServerWrapper((de.iip_ecosphere.platform.support.boot.Server) o);
                                 sv.start();
                                 DescriptorUtils.setStateSafe(s, ServiceState.STARTING);
                                 ServerAddress adr = new ServerAddress(Schema.IGNORE, myHost, ser.getPort());
@@ -235,7 +235,7 @@ public class ServerManager {
                     String id = s.getId();
                     if (netClient.getRegisteredInstances(id) == 0) {
                         DescriptorUtils.setStateSafe(s, ServiceState.STOPPING);
-                        de.iip_ecosphere.platform.support.Server sv = runningServers.remove(s);
+                        de.iip_ecosphere.platform.support.boot.Server sv = runningServers.remove(s);
                         sv.stop(true);
                         netClient.releasePort(id);
                         DescriptorUtils.setStateSafe(s, ServiceState.STOPPED);

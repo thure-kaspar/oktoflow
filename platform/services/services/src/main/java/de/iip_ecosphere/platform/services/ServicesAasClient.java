@@ -21,17 +21,17 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 import de.iip_ecosphere.platform.services.environment.ServiceState;
-import de.iip_ecosphere.platform.support.aas.AasUtils;
-import de.iip_ecosphere.platform.support.aas.Operation;
-import de.iip_ecosphere.platform.support.aas.Property;
-import de.iip_ecosphere.platform.support.aas.SubmodelElement;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.AasUtils;
+import de.iip_ecosphere.platform.support.aas.aas.Operation;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElement;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;
 import de.iip_ecosphere.platform.support.iip_aas.SubmodelElementsCollectionClient;
 import de.iip_ecosphere.platform.support.json.JsonUtils;
 
-import static de.iip_ecosphere.platform.support.aas.AasUtils.*;
+import static de.iip_ecosphere.platform.support.aas.aas.AasUtils.*;
 import static de.iip_ecosphere.platform.support.json.JsonResultWrapper.*;
 
 /**

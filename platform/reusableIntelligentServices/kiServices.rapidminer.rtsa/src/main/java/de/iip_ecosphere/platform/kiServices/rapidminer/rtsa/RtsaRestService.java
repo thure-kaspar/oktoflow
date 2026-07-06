@@ -12,6 +12,8 @@
 
 package de.iip_ecosphere.platform.kiServices.rapidminer.rtsa;
 
+import static de.iip_ecosphere.platform.support.boot.FileUtils.*;
+
 import java.io.File;
 import java.io.InputStream;
 import java.net.URI;
@@ -32,8 +34,6 @@ import de.iip_ecosphere.platform.services.environment.YamlProcess;
 import de.iip_ecosphere.platform.transport.connectors.ReceptionCallback;
 import de.iip_ecosphere.platform.transport.serialization.TypeTranslator;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
-
-import static de.iip_ecosphere.platform.support.FileUtils.*;
 
 /**
  * Integration of <a href="https://github.com/kiprotect/kodex">KIPROTECT KODEX</a> as a service.

@@ -19,12 +19,12 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.PersistenceRecipe;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe;
-import de.iip_ecosphere.platform.support.aas.ServerRecipe.LocalPersistenceType;
-import test.de.iip_ecosphere.platform.support.aas.PersistenceTest;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.PersistenceRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.ServerRecipe.LocalPersistenceType;
+import test.de.iip_ecosphere.platform.support.aas.aas.PersistenceTest;
 
 /**
  * Tests {@link PersistenceRecipe}.

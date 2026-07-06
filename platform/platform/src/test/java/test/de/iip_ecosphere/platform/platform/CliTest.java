@@ -34,8 +34,8 @@ import de.iip_ecosphere.platform.platform.cli.ResourcesClientFactory;
 import de.iip_ecosphere.platform.platform.cli.ServicesClientFactory;
 import de.iip_ecosphere.platform.services.ServicesClient;
 import de.iip_ecosphere.platform.services.environment.ServiceState;
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
 import de.iip_ecosphere.platform.support.iip_aas.PlatformClient;
 import de.iip_ecosphere.platform.support.semanticId.SemanticIdResolutionResult;
 

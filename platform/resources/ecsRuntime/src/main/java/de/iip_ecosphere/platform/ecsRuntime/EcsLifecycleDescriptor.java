@@ -15,8 +15,8 @@ package de.iip_ecosphere.platform.ecsRuntime;
 import java.util.concurrent.ExecutionException;
 
 import de.iip_ecosphere.platform.services.environment.ServicePluginDescriptor;
-import de.iip_ecosphere.platform.support.PidLifecycleDescriptor;
-import de.iip_ecosphere.platform.support.TerminatingLifecycleDescriptor;
+import de.iip_ecosphere.platform.support.aas.PidLifecycleDescriptor;
+import de.iip_ecosphere.platform.support.aas.TerminatingLifecycleDescriptor;
 import de.iip_ecosphere.platform.support.iip_aas.AbstractAasLifecycleDescriptor;
 import de.iip_ecosphere.platform.support.iip_aas.IipVersion;
 import de.iip_ecosphere.platform.support.net.NetworkManagerFactory;

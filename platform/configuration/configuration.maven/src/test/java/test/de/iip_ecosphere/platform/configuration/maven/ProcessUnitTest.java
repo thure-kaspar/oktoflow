@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 import org.junit.Test;
 
 import de.iip_ecosphere.platform.configuration.maven.ProcessUnit;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 
 import org.junit.Assert;
 

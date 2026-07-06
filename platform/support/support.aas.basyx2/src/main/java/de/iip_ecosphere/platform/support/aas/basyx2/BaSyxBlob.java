@@ -12,8 +12,8 @@
 
 package de.iip_ecosphere.platform.support.aas.basyx2;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.BlobDataElement;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.BlobDataElement;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

@@ -2,7 +2,7 @@ package iip.datatypes;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import de.iip_ecosphere.platform.support.ConfiguredName;
+import de.iip_ecosphere.platform.support.boot.ConfiguredName;
 
 /**
  * Interface of the application data type RoutingCommand.

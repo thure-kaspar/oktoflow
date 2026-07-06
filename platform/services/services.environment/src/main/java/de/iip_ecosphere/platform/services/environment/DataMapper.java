@@ -21,7 +21,7 @@ import java.util.Map;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.bytecode.Bytecode;
 import de.iip_ecosphere.platform.support.json.IOIterator;
 import de.iip_ecosphere.platform.support.json.Json;

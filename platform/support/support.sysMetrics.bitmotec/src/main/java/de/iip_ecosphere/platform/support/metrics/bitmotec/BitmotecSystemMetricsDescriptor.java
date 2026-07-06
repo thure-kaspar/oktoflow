@@ -16,9 +16,9 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.metrics.AbstractSystemMetricsPluginDescriptor;
-import de.iip_ecosphere.platform.support.metrics.SystemMetrics;
+import de.iip_ecosphere.platform.support.aas.metrics.AbstractSystemMetricsPluginDescriptor;
+import de.iip_ecosphere.platform.support.aas.metrics.SystemMetrics;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
 
 /**
  * The default JSL system metrics descriptor. Enables the metrics if {@code /etc/os-release} or

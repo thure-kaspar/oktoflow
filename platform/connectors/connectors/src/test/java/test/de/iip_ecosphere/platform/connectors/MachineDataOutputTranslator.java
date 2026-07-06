@@ -18,7 +18,7 @@ import org.junit.Assert;
 
 import de.iip_ecosphere.platform.connectors.model.ModelAccess;
 import de.iip_ecosphere.platform.connectors.types.AbstractConnectorOutputTypeTranslator;
-import test.de.iip_ecosphere.platform.support.aas.AasTest;
+import test.de.iip_ecosphere.platform.support.aas.aas.AasTest;
 
 /**
  * The machine data output translator for information-model based tests.

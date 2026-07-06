@@ -14,8 +14,8 @@ package de.iip_ecosphere.platform.support.aas.basyx2;
 
 import org.eclipse.digitaltwin.aas4j.v3.model.SubmodelElement;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.DataElement;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.DataElement;
 
 /**
  * Wraps a BaSyx data element. Shall be created by respective builder methods.

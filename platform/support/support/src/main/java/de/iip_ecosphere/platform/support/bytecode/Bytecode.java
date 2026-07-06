@@ -12,11 +12,10 @@
 
 package de.iip_ecosphere.platform.support.bytecode;
 
+import de.iip_ecosphere.platform.support.boot.Builder;
 import de.iip_ecosphere.platform.support.plugins.PluginManager;
 
 import java.lang.annotation.Annotation;
-
-import de.iip_ecosphere.platform.support.Builder;
 
 /**
  * Generic access to Bytecode manipulation. Requires an implementing plugin of type {@link Bytecode} or an active 

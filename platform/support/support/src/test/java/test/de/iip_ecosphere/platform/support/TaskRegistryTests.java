@@ -14,10 +14,10 @@ package test.de.iip_ecosphere.platform.support;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.TaskRegistry;
-import de.iip_ecosphere.platform.support.TaskRegistry.TaskData;
-import de.iip_ecosphere.platform.support.TaskRegistry.TaskStatus;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TaskRegistry;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TaskRegistry.TaskData;
+import de.iip_ecosphere.platform.support.boot.TaskRegistry.TaskStatus;
 
 import org.junit.Assert;
 

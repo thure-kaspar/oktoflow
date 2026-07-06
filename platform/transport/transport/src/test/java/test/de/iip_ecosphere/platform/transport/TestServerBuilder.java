@@ -14,8 +14,8 @@ package test.de.iip_ecosphere.platform.transport;
 
 import java.io.File;
 
-import de.iip_ecosphere.platform.support.Builder;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Builder;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.plugins.PluginManager;
 
 /**

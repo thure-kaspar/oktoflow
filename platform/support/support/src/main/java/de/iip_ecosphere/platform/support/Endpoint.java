@@ -15,6 +15,8 @@ package de.iip_ecosphere.platform.support;
 import java.net.URI;
 import java.net.URISyntaxException;
 
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 
 /**

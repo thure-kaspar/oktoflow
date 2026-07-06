@@ -29,7 +29,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import de.iip_ecosphere.platform.support.ZipUtils;
+import de.iip_ecosphere.platform.support.boot.ZipUtils;
 import de.iip_ecosphere.platform.support.json.Json;
 import de.iip_ecosphere.platform.support.setup.AbstractSetup;
 import de.iip_ecosphere.platform.support.setup.CmdLine;

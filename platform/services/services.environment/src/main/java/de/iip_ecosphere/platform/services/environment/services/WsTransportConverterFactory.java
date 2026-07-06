@@ -16,10 +16,10 @@ import java.io.IOException;
 
 import de.iip_ecosphere.platform.services.environment.services.TransportConverter.Watcher;
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.NoOpServer;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.NoOpServer;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry.AasSetup;
 import de.iip_ecosphere.platform.transport.connectors.TransportSetup;
 import de.iip_ecosphere.platform.transport.serialization.TypeTranslator;

@@ -19,8 +19,8 @@ import java.util.Collection;
 import java.util.List;
 
 import de.iip_ecosphere.platform.support.FileFormat;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.PersistenceRecipe;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.PersistenceRecipe;
 
 /**
  * A catch-all persistency receipe.

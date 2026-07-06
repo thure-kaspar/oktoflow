@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-import de.iip_ecosphere.platform.support.aas.OperationsProvider.Interceptor;
+import de.iip_ecosphere.platform.support.aas.aas.OperationsProvider.Interceptor;
 
 /**
  * Test mocking interceptor, as mocking some objects does not work anymore through plugins, classloading. Might be

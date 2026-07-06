@@ -7,11 +7,11 @@ import java.util.concurrent.ExecutionException;
 import java.util.function.Predicate;
 
 import de.iip_ecosphere.platform.services.environment.metricsProvider.meterRepresentation.MeterRepresentation;
-import de.iip_ecosphere.platform.support.aas.BasicAasVisitor;
-import de.iip_ecosphere.platform.support.aas.ElementsAccess;
-import de.iip_ecosphere.platform.support.aas.Property;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementCollection;
-import de.iip_ecosphere.platform.support.aas.SubmodelElementList;
+import de.iip_ecosphere.platform.support.aas.aas.BasicAasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.ElementsAccess;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementCollection;
+import de.iip_ecosphere.platform.support.aas.aas.SubmodelElementList;
 import de.iip_ecosphere.platform.support.metrics.Gauge;
 import de.iip_ecosphere.platform.support.metrics.Meter;
 import de.iip_ecosphere.platform.support.semanticId.SemanticIdResolutionResult;

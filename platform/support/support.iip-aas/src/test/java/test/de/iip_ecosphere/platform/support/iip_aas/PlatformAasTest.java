@@ -18,11 +18,11 @@ import java.util.concurrent.ExecutionException;
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.AasPrintVisitor;
-import de.iip_ecosphere.platform.support.aas.Property;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.AasPrintVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.Property;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.boot.Server;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.iip_aas.ApplicationInstanceAasConstructor;
 import de.iip_ecosphere.platform.support.iip_aas.ApplicationInstancesAasClient;
@@ -30,7 +30,7 @@ import de.iip_ecosphere.platform.support.iip_aas.PlatformAas;
 import de.iip_ecosphere.platform.support.iip_aas.PlatformAasClient;
 import de.iip_ecosphere.platform.support.iip_aas.PlatformClient;
 import de.iip_ecosphere.platform.support.semanticId.SemanticIdResolutionResult;
-import test.de.iip_ecosphere.platform.support.aas.TestWithPlugin;
+import test.de.iip_ecosphere.platform.support.aas.aas.TestWithPlugin;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry.AasSetup;
 import de.iip_ecosphere.platform.support.iip_aas.Eclass;
 

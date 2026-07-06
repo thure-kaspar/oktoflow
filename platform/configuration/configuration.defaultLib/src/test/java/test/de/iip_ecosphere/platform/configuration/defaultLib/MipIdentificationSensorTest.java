@@ -23,7 +23,7 @@ import de.iip_ecosphere.platform.configuration.defaultLib.MipIdentificationSenso
 import de.iip_ecosphere.platform.configuration.defaultLib.MipIdentificationSensor.MipTimerTask;
 import de.iip_ecosphere.platform.services.environment.DataIngestor;
 import de.iip_ecosphere.platform.services.environment.DataIngestors;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import iip.datatypes.MipMqttInput;
 
 /**

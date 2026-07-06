@@ -16,9 +16,9 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.aas.IdentifierType;
-import de.iip_ecosphere.platform.support.aas.SemanticIdRecognizer;
-import test.de.iip_ecosphere.platform.support.aas.PCF;
+import de.iip_ecosphere.platform.support.aas.aas.IdentifierType;
+import de.iip_ecosphere.platform.support.aas.aas.SemanticIdRecognizer;
+import test.de.iip_ecosphere.platform.support.aas.aas.PCF;
 
 /**
  * Sets up the {@link PCF} for BaSyx. You will find the persisted AAS in the {@code output} folder.

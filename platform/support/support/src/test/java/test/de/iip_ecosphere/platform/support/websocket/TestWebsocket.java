@@ -16,8 +16,8 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.function.Consumer;
 
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.websocket.WebsocketFactory;
 
 /**

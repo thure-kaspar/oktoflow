@@ -13,7 +13,7 @@ package test.de.iip_ecosphere.platform.support.aas.basyx2;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import test.de.iip_ecosphere.platform.support.aas.TechnicalDataSubmodelTest;
+import test.de.iip_ecosphere.platform.support.aas.aas.TechnicalDataSubmodelTest;
 
 /**
  * Defines the tests to be executed.

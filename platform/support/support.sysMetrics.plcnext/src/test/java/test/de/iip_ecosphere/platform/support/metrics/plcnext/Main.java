@@ -1,7 +1,7 @@
 package test.de.iip_ecosphere.platform.support.metrics.plcnext;
 
-import de.iip_ecosphere.platform.support.TimeUtils;
-import de.iip_ecosphere.platform.support.metrics.SystemMetrics;
+import de.iip_ecosphere.platform.support.aas.metrics.SystemMetrics;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.metrics.plcnext.PlcNextSystemMetricsDescriptor;
 
 /**

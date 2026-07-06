@@ -23,9 +23,9 @@ import de.iip_ecosphere.platform.configuration.easyProducer.EasyLogger.LogConsum
 import de.iip_ecosphere.platform.configuration.easyProducer.EasyLogger.LogLevel;
 import de.iip_ecosphere.platform.services.environment.services.Sender;
 import de.iip_ecosphere.platform.services.environment.services.TransportConverterFactory;
-import de.iip_ecosphere.platform.support.LifecycleDescriptor;
-import de.iip_ecosphere.platform.support.OsUtils;
-import de.iip_ecosphere.platform.support.TaskRegistry.TaskData;
+import de.iip_ecosphere.platform.support.aas.LifecycleDescriptor;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
+import de.iip_ecosphere.platform.support.boot.TaskRegistry.TaskData;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.iip_ecosphere.platform.transport.serialization.TypeTranslators;

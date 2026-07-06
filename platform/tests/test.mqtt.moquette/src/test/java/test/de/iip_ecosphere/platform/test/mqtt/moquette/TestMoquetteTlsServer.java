@@ -14,8 +14,8 @@ import java.io.File;
 
 import org.apache.log4j.BasicConfigurator;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 /**
  * A simple embedded Moquette-based MQTT TLS test server for testing/experiments. This class works with Java 8.

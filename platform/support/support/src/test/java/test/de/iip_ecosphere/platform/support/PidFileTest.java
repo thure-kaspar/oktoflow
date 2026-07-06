@@ -17,8 +17,9 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.FileUtils;
 import de.iip_ecosphere.platform.support.PidFile;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+
 import org.junit.Assert;
 
 /**

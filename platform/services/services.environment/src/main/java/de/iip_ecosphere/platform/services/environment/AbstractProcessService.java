@@ -30,9 +30,9 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 
 import de.iip_ecosphere.platform.services.environment.metricsProvider.MetricsProvider;
-import de.iip_ecosphere.platform.support.CollectionUtils;
-import de.iip_ecosphere.platform.support.OsUtils;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 import de.iip_ecosphere.platform.support.metrics.MetricsFactory;
 import de.iip_ecosphere.platform.support.processInfo.ProcessInfoFactory;

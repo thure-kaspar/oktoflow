@@ -1,10 +1,10 @@
 package de.iip_ecosphere.platform.support.iip_aas.config;
 
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.Ignore;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.IdentityStoreAuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.IdentityStoreAuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.boot.Ignore;
+import de.iip_ecosphere.platform.support.boot.Schema;
 
 /**
  * A proxy for {@link Endpoint} as we do not want to have setters there.

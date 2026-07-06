@@ -19,7 +19,7 @@ import de.iip_ecosphere.platform.ecsRuntime.kubernetes.proxy.AasK8SJavaProxy;
 import de.iip_ecosphere.platform.ecsRuntime.kubernetes.proxy.K8SJavaProxy;
 import de.iip_ecosphere.platform.ecsRuntime.kubernetes.proxy.K8SRequest;
 import de.iip_ecosphere.platform.ecsRuntime.kubernetes.proxy.ProxyType;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 
 public class WorkerAasJavaK8SProxy {
   

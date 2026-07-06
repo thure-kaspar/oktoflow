@@ -18,9 +18,9 @@ import java.nio.charset.Charset;
 
 import org.eclipse.basyx.vab.protocol.basyx.CoderTools;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder.PayloadCodec;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder.PayloadConsumer;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder.PayloadCodec;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder.PayloadConsumer;
+import de.iip_ecosphere.platform.support.boot.Schema;
 
 /**
  * A BaSyx TCP payload codec in the style of TCP VAB, but on generic payload. We introduced

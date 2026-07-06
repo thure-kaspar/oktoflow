@@ -22,7 +22,7 @@ import de.iip_ecosphere.platform.connectors.mqttv3.PahoMqttv3Connector;
 import de.iip_ecosphere.platform.connectors.types.ChannelTranslatingProtocolAdapter;
 import de.iip_ecosphere.platform.connectors.types.ConnectorInputTypeAdapter;
 import de.iip_ecosphere.platform.connectors.types.ConnectorOutputTypeAdapter;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.identities.IdentityToken;
 import de.iip_ecosphere.platform.support.identities.IdentityToken.IdentityTokenBuilder;
 import de.iip_ecosphere.platform.support.iip_aas.ActiveAasBase;

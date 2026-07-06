@@ -34,16 +34,16 @@ import org.eclipse.digitaltwin.basyx.core.exceptions.NotInvokableException;
 import org.eclipse.digitaltwin.basyx.core.exceptions.OperationDelegationException;
 import org.eclipse.digitaltwin.basyx.submodelrepository.client.ConnectedSubmodelRepository;
 
-import de.iip_ecosphere.platform.support.aas.AasVisitor;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.LangString;
-import de.iip_ecosphere.platform.support.aas.Operation;
-import de.iip_ecosphere.platform.support.aas.Property.PropertyBuilder;
-import de.iip_ecosphere.platform.support.aas.Submodel;
-import de.iip_ecosphere.platform.support.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AasVisitor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.LangString;
+import de.iip_ecosphere.platform.support.aas.aas.Operation;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.RbacAction;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.Role;
+import de.iip_ecosphere.platform.support.aas.aas.Property.PropertyBuilder;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.RbacAction;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.Role;
 
 /**
  * Implements an AAS Operation wrapper for BaSyx.
@@ -189,7 +189,7 @@ public class BaSyxOperation extends BaSyxSubmodelElement implements Operation {
         }
 
         @Override
-        public OperationBuilder setInvocable(de.iip_ecosphere.platform.support.aas.Invokable invocable) {
+        public OperationBuilder setInvocable(de.iip_ecosphere.platform.support.aas.aas.Invokable invocable) {
             return setInvocableLazy(invocable);
         }
 
@@ -218,7 +218,7 @@ public class BaSyxOperation extends BaSyxSubmodelElement implements Operation {
         }
 
         @Override
-        public OperationBuilder setInvocableLazy(de.iip_ecosphere.platform.support.aas.Invokable invocable) {
+        public OperationBuilder setInvocableLazy(de.iip_ecosphere.platform.support.aas.aas.Invokable invocable) {
             if (null != invocable) {
                 String url = invocable.getUrl();
                 String submodelRepoUrl = invocable.getSubmodelRepositoryUrl();

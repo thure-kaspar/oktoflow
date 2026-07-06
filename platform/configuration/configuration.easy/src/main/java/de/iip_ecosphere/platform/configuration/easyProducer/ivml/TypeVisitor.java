@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.configuration.easyProducer.ivml;
 
-import de.iip_ecosphere.platform.support.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
 import net.ssehub.easy.varModel.model.datatypes.AnyType;
 import net.ssehub.easy.varModel.model.datatypes.BooleanType;
 import net.ssehub.easy.varModel.model.datatypes.Compound;

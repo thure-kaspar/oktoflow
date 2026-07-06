@@ -26,7 +26,7 @@ import de.iip_ecosphere.platform.connectors.modbustcpipv1.ModbusItem;
 import de.iip_ecosphere.platform.connectors.modbustcpipv1.ModbusTcpIpConnector;
 import de.iip_ecosphere.platform.connectors.types.ProtocolAdapter;
 import de.iip_ecosphere.platform.support.Endpoint;
-import de.iip_ecosphere.platform.support.Schema;
+import de.iip_ecosphere.platform.support.boot.Schema;
 import de.iip_ecosphere.platform.support.logging.Logger;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
 

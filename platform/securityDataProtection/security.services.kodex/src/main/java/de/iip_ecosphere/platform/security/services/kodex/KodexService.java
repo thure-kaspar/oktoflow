@@ -20,8 +20,8 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 import de.iip_ecosphere.platform.services.environment.YamlService;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 import de.iip_ecosphere.platform.services.environment.AbstractService;
 import de.iip_ecosphere.platform.services.environment.AbstractStringProcessService;
 import de.iip_ecosphere.platform.services.environment.ServiceState;

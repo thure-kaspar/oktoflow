@@ -12,14 +12,14 @@
 
 package de.iip_ecosphere.platform.services.environment;
 
-import static de.iip_ecosphere.platform.support.aas.AasUtils.*;
+import static de.iip_ecosphere.platform.support.aas.aas.AasUtils.*;
 
 import java.net.URI;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.function.Supplier;
 
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
 import de.iip_ecosphere.platform.support.json.JsonResultWrapper;
 import de.iip_ecosphere.platform.transport.Transport;
 import de.iip_ecosphere.platform.transport.status.TraceRecord;

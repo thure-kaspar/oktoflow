@@ -12,9 +12,9 @@
 
 package de.iip_ecosphere.platform.support.dfltSysMetrics;
 
-import de.iip_ecosphere.platform.support.OsUtils;
+import de.iip_ecosphere.platform.support.aas.metrics.SystemMetrics;
+import de.iip_ecosphere.platform.support.boot.OsUtils;
 import de.iip_ecosphere.platform.support.logging.LoggerFactory;
-import de.iip_ecosphere.platform.support.metrics.SystemMetrics;
 import de.iip_ecosphere.platform.support.processInfo.ProcessInfoFactory;
 import de.iip_ecosphere.platform.support.processInfo.ProcessInfoFactory.SystemInfo;
 import jcuda.CudaException;

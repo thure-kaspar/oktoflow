@@ -15,7 +15,7 @@ package de.iip_ecosphere.platform.support.iip_aas;
 import java.util.Optional;
 import java.util.function.Supplier;
 
-import de.iip_ecosphere.platform.support.JavaBinaryPathDescriptor;
+import de.iip_ecosphere.platform.support.boot.JavaBinaryPathDescriptor;
 
 /**
  * Supplies the binary path of a more recent JVM than 8.

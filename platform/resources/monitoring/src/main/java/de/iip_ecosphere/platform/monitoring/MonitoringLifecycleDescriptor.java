@@ -13,8 +13,8 @@
 package de.iip_ecosphere.platform.monitoring;
 
 import de.iip_ecosphere.platform.services.environment.ServicePluginDescriptor;
-import de.iip_ecosphere.platform.support.LifecycleDescriptor;
-import de.iip_ecosphere.platform.support.PidLifecycleDescriptor;
+import de.iip_ecosphere.platform.support.aas.LifecycleDescriptor;
+import de.iip_ecosphere.platform.support.aas.PidLifecycleDescriptor;
 import de.iip_ecosphere.platform.transport.Transport;
 
 /**

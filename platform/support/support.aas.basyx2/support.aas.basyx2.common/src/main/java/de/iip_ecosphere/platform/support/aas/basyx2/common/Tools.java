@@ -19,10 +19,10 @@ import java.util.Map;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.ComponentSetup;
 import de.iip_ecosphere.platform.support.net.HttpClientHelper;
 import de.iip_ecosphere.platform.support.net.KeyStoreDescriptor;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.ComponentSetup;
 
 /**
  * Some common utilities, e.g., for client/server.

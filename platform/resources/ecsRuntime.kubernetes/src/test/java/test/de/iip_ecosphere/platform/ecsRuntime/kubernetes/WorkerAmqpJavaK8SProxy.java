@@ -18,7 +18,7 @@ import org.junit.Test;
 import de.iip_ecosphere.platform.ecsRuntime.kubernetes.proxy.K8SJavaProxy;
 import de.iip_ecosphere.platform.ecsRuntime.kubernetes.proxy.K8SRequest;
 import de.iip_ecosphere.platform.ecsRuntime.kubernetes.proxy.ProxyType;
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.transport.TransportFactory;
 import de.iip_ecosphere.platform.transport.TransportFactory.ConnectorCreator;
 import de.iip_ecosphere.platform.transport.connectors.TransportConnector;

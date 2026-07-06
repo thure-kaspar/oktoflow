@@ -14,13 +14,13 @@ package test.de.iip_ecosphere.platform.support.aas.basyx2;
 
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.BasicSetupSpec;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder.PayloadCodec;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder.PayloadConsumer;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.BasicSetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder.PayloadCodec;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder.PayloadConsumer;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 
 import java.nio.charset.Charset;
 

@@ -3,8 +3,8 @@ package iip.datatypes;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import de.iip_ecosphere.platform.support.ConfiguredName;
-import de.iip_ecosphere.platform.support.StringUtils;
+import de.iip_ecosphere.platform.support.boot.ConfiguredName;
+import de.iip_ecosphere.platform.support.boot.StringUtils;
 
 /**
  * Implementation of the application data type RoutingCommand.

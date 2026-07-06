@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.support.json;
 
-import de.iip_ecosphere.platform.support.Builder;
+import de.iip_ecosphere.platform.support.boot.Builder;
 
 /**
  * Creates Json objects. Abstracted from JavaEE/glassfisch.

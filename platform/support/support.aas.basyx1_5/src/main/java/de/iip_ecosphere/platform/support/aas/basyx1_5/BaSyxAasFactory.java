@@ -25,15 +25,13 @@ import org.eclipse.basyx.vab.protocol.http.connector.HTTPConnectorFactory;
 import org.eclipse.basyx.vab.protocol.http.connector.IAuthorizationSupplier;
 import org.eclipse.basyx.vab.protocol.https.HTTPSConnectorProvider;
 
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.aas.AasFactory;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor;
-import de.iip_ecosphere.platform.support.aas.Registry;
-import de.iip_ecosphere.platform.support.aas.SetupSpec;
-import de.iip_ecosphere.platform.support.aas.Type;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.AasComponent;
-import de.iip_ecosphere.platform.support.aas.SetupSpec.ComponentSetup;
+import de.iip_ecosphere.platform.support.aas.aas.AasFactory;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor;
+import de.iip_ecosphere.platform.support.aas.aas.Registry;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec;
+import de.iip_ecosphere.platform.support.aas.aas.Type;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.AasComponent;
+import de.iip_ecosphere.platform.support.aas.aas.SetupSpec.ComponentSetup;
 import de.iip_ecosphere.platform.support.aas.basyx.BaSyxAbstractAasServer;
 import de.iip_ecosphere.platform.support.aas.basyx.BaSyxRegistry;
 import de.iip_ecosphere.platform.support.aas.basyx.DeploymentSpec;
@@ -42,6 +40,8 @@ import de.iip_ecosphere.platform.support.aas.basyx.VersionAdjustment;
 import de.iip_ecosphere.platform.support.aas.basyx.VersionAdjustment.RegistryDeploymentServerCreator;
 import de.iip_ecosphere.platform.support.aas.basyx.VersionAdjustment.ServerCreator;
 import de.iip_ecosphere.platform.support.aas.basyx1_5.basyx.BaSyxHTTPServer;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.Server;
 
 /**
  * AAS factory for BaSyx. Do not rename, this class is referenced in {@code META-INF/services}.

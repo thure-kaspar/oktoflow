@@ -12,7 +12,7 @@
 
 package de.iip_ecosphere.platform.support.iip_aas;
 
-import de.iip_ecosphere.platform.support.NetUtils;
+import de.iip_ecosphere.platform.support.boot.NetUtils;
 
 /**
  * A device ID provider based on the hostname of the device.

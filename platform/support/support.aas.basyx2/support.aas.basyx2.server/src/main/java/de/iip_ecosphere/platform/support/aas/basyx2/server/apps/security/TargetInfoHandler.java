@@ -16,8 +16,8 @@ import java.util.List;
 
 import org.eclipse.digitaltwin.basyx.authorization.rbac.TargetInformation;
 
-import de.iip_ecosphere.platform.support.CollectionUtils;
-import de.iip_ecosphere.platform.support.aas.AuthenticationDescriptor.RbacRule;
+import de.iip_ecosphere.platform.support.aas.aas.AuthenticationDescriptor.RbacRule;
+import de.iip_ecosphere.platform.support.boot.CollectionUtils;
 
 /**
  * BaSyX target information creator and handler.

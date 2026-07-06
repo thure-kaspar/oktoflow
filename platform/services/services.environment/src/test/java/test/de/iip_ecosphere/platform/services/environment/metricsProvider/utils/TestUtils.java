@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.net.URL;
 
-import de.iip_ecosphere.platform.support.TimeUtils;
+import de.iip_ecosphere.platform.support.boot.TimeUtils;
 import de.iip_ecosphere.platform.support.json.Json;
 import de.iip_ecosphere.platform.support.json.JsonObject;
 
