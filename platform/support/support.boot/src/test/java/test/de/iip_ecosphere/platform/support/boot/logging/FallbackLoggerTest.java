@@ -39,7 +39,7 @@ public class FallbackLoggerTest {
         Assert.assertEquals("a.Class", FallbackLogger.abbreviate("alpha.Class"));
         Assert.assertEquals(".Class", FallbackLogger.abbreviate(".Class"));
         Assert.assertEquals(".", FallbackLogger.abbreviate("."));
-        Assert.assertEquals("t.d.i.p.s.l." + getClass().getSimpleName(), 
+        Assert.assertEquals("t.d.i.p.s.b.l." + getClass().getSimpleName(), 
             FallbackLogger.abbreviate(getClass().getName()));
     }
 
