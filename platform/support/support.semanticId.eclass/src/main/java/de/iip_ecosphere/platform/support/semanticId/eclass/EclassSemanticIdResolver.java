@@ -27,11 +27,11 @@ import javax.net.ssl.KeyManager;
 import javax.net.ssl.KeyManagerFactory;
 import javax.ws.rs.ProcessingException;
 
-import de.iip_ecosphere.platform.support.aas.boot.semanticId.eclass.api.EclassJsonReadServicesApi;
-import de.iip_ecosphere.platform.support.aas.boot.semanticId.eclass.handler.ApiException;
-import de.iip_ecosphere.platform.support.aas.boot.semanticId.eclass.model.ReadProperty;
-import de.iip_ecosphere.platform.support.aas.boot.semanticId.eclass.model.ReadUnit;
-import de.iip_ecosphere.platform.support.aas.boot.semanticId.eclass.model.TranslatableLabel;
+import de.iip_ecosphere.platform.support.semanticId.eclass.api.EclassJsonReadServicesApi;
+import de.iip_ecosphere.platform.support.semanticId.eclass.handler.ApiException;
+import de.iip_ecosphere.platform.support.semanticId.eclass.model.ReadProperty;
+import de.iip_ecosphere.platform.support.semanticId.eclass.model.ReadUnit;
+import de.iip_ecosphere.platform.support.semanticId.eclass.model.TranslatableLabel;
 import de.iip_ecosphere.platform.support.identities.IdentityStore;
 import de.iip_ecosphere.platform.support.identities.IdentityToken;
 import de.iip_ecosphere.platform.support.semanticId.DefaultSemanticIdResolutionResult;

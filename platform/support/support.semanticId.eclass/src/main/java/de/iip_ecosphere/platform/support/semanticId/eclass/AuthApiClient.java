@@ -14,7 +14,7 @@ package de.iip_ecosphere.platform.support.semanticId.eclass;
 
 import javax.net.ssl.SSLContext;
 
-import de.iip_ecosphere.platform.support.aas.boot.semanticId.eclass.handler.ApiClient;
+import de.iip_ecosphere.platform.support.semanticId.eclass.handler.ApiClient;
 import de.iip_ecosphere.platform.support.identities.IdentityToken;
 
 /**

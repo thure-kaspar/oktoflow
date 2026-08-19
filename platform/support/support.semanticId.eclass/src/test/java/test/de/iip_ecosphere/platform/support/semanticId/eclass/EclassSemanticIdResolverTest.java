@@ -21,7 +21,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import de.iip_ecosphere.platform.support.aas.boot.semanticId.eclass.model.TranslatableLabel;
+import de.iip_ecosphere.platform.support.semanticId.eclass.model.TranslatableLabel;
 import de.iip_ecosphere.platform.support.semanticId.DefaultSemanticIdResolutionResult;
 import de.iip_ecosphere.platform.support.semanticId.DefaultSemanticIdResolutionResult.DefaultNaming;
 import de.iip_ecosphere.platform.support.semanticId.SemanticIdResolutionResult;
