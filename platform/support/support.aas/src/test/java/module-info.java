@@ -1,6 +1,11 @@
 open module de.iip_ecosphere.platform.support.aas.tests {
 	requires de.iip_ecosphere.platform.support.aas;
 	requires jdk.httpserver;
+	
+	exports test.de.iip_ecosphere.platform.support.aas.aas;
+	exports test.de.iip_ecosphere.platform.support.net;
+	exports test.de.iip_ecosphere.platform.support.aas;
+	exports test.de.iip_ecosphere.platform.support.fakeAas;
     
     provides de.iip_ecosphere.platform.support.aas.aas.AasFactoryDescriptor with test.de.iip_ecosphere.platform.support.fakeAas.FakeAasFactory.Descriptor;
     provides de.iip_ecosphere.platform.support.aas.aas.ProtocolDescriptor with test.de.iip_ecosphere.platform.support.fakeAas.FakeProtocolDescriptor;

@@ -142,6 +142,19 @@
             <version>${org.apache.maven.jar.version}</version>
             <executions>
               <execution>
+	             <id>default-jar</id>
+	             <goals>
+	               <goal>jar</goal>
+	             </goals>
+	             <configuration>
+	               <archive>
+	                 <manifestEntries>
+	                   <Automatic-Module-Name>de.oktoflow.platform.tools.lib</Automatic-Module-Name>
+	                 </manifestEntries>
+	               </archive>
+	             </configuration>
+	          </execution>
+              <execution>
                 <goals>
                   <goal>test-jar</goal>
                 </goals>

@@ -83,6 +83,26 @@
 		        </execution>
 		      </executions>
 	    	</plugin>
+	    	<plugin>
+	         <groupId>org.apache.maven.plugins</groupId>
+	         <artifactId>maven-jar-plugin</artifactId>
+	         <version>${org.apache.maven.jar.version}</version>
+	         <executions>
+	           <execution>
+	             <id>default-jar</id>
+	             <goals>
+	               <goal>jar</goal>
+	             </goals>
+	             <configuration>
+	               <archive>
+	                 <manifestEntries>
+	                   <Automatic-Module-Name>de.iip_ecosphere.platform.libs.ads</Automatic-Module-Name>
+	                 </manifestEntries>
+	               </archive>
+	             </configuration>
+	           </execution>
+	         </executions>
+	       </plugin>
         </plugins>
 	</build>
 </project>
