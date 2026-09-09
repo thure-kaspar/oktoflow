@@ -23,10 +23,10 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import de.iip_ecosphere.platform.examples.SpringStartup;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.Server;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.Server;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.collector.Collector;
 import test.de.iip_ecosphere.platform.configuration.easyProducer.AbstractIvmlTests;
 import test.de.iip_ecosphere.platform.transport.TestWithQpid;

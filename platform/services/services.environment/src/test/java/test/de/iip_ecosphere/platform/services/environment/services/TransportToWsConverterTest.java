@@ -68,7 +68,7 @@ public class TransportToWsConverterTest extends TestWithQpid {
             count.incrementAndGet();
         });
         watcher.start();
-                
+        
         int[] img = new int[] {128, 128, 64, 12, 0, 8};
         TraceToAasServiceMain.MyData data = new TraceToAasServiceMain.MyData(img);
         Transport.sendTraceRecord(new TraceRecord("source", TraceRecord.ACTION_SENDING, data));
@@ -120,7 +120,7 @@ public class TransportToWsConverterTest extends TestWithQpid {
             count.incrementAndGet();
         });
         watcher.start();
-                
+        
         int[] img = new int[] {128, 128, 64, 12, 0, 8};
         TraceToAasServiceMain.MyData data = new TraceToAasServiceMain.MyData(img);
         Transport.sendTraceRecord(new TraceRecord("source", TraceRecord.ACTION_SENDING, data));

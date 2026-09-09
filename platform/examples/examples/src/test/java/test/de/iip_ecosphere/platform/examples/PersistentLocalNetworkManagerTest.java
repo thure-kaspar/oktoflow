@@ -19,9 +19,9 @@ import org.junit.Test;
 
 import de.iip_ecosphere.platform.examples.PersistentLocalNetworkManagerDescriptor;
 import de.iip_ecosphere.platform.examples.PersistentLocalNetworkManagerImpl;
-import de.iip_ecosphere.platform.support.FileUtils;
-import de.iip_ecosphere.platform.support.Schema;
-import de.iip_ecosphere.platform.support.ServerAddress;
+import de.iip_ecosphere.platform.support.boot.FileUtils;
+import de.iip_ecosphere.platform.support.boot.Schema;
+import de.iip_ecosphere.platform.support.boot.ServerAddress;
 import de.iip_ecosphere.platform.support.net.ManagedServerAddress;
 import de.iip_ecosphere.platform.support.net.NetworkManager;
 

@@ -16,12 +16,12 @@ import java.io.IOException;
 
 import de.iip_ecosphere.platform.configuration.cfg.AasChange;
 import de.iip_ecosphere.platform.configuration.cfg.ConfigurationFactory;
-import de.iip_ecosphere.platform.support.aas.Aas;
-import de.iip_ecosphere.platform.support.aas.Aas.AasBuilder;
-import de.iip_ecosphere.platform.support.aas.Submodel.SubmodelBuilder;
-import de.iip_ecosphere.platform.support.aas.InvocablesCreator;
-import de.iip_ecosphere.platform.support.aas.ProtocolServerBuilder;
-import de.iip_ecosphere.platform.support.aas.Submodel;
+import de.iip_ecosphere.platform.support.aas.aas.Aas;
+import de.iip_ecosphere.platform.support.aas.aas.Aas.AasBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel.SubmodelBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.InvocablesCreator;
+import de.iip_ecosphere.platform.support.aas.aas.ProtocolServerBuilder;
+import de.iip_ecosphere.platform.support.aas.aas.Submodel;
 import de.iip_ecosphere.platform.support.iip_aas.AasContributor;
 import de.iip_ecosphere.platform.support.iip_aas.AasPartRegistry;
 import de.iip_ecosphere.platform.support.json.JsonResultWrapper.OperationCompletedListener;
